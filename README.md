@@ -25,11 +25,12 @@ Author: Jung
 ### Level-2
 
 | No. |                         Name                         |    Date    | Language |
-| :-: | :--------------------------------------------------: | :--------: | -------- |
-|  1  | [게임 맵 최단 거리](./programmers/level2/gameMap.md) | 2021-01-24 | JAVA     |
+| :-: | :--------------------------------------------------: | :--------: | :------: |
+|  1  | [게임 맵 최단 거리](./programmers/level2/gameMap.md) | 2021-01-24 |   JAVA   |
 
 ### Level-3
 
-| No. |                      Name                       |    Date    | Language |
-| :-: | :---------------------------------------------: | :--------: | -------- |
-|  1  | [경주로 건설](./programmers/level3/raceLoad.md) | 2021-01-23 | JAVA     |
+| No. |                         Name                         |    Date    | Language |
+| :-: | :--------------------------------------------------: | :--------: | :------: |
+|  1  |   [경주로 건설](./programmers/level3/raceLoad.md)    | 2021-01-23 |   JAVA   |
+|  2  | [가장 먼 노드](./programmers/level3/farthestnode.md) | 2021-01-25 |   JAVA   |
