@@ -27,6 +27,7 @@ Author: Jung
 | No. |                         Name                         |    Date    | Language |
 | :-: | :--------------------------------------------------: | :--------: | :------: |
 |  1  | [게임 맵 최단 거리](./programmers/level2/gameMap.md) | 2021-01-24 |   JAVA   |
+|  2  |       [배달](./programmers/level2/delivery.md)       | 2021-01-27 |   JAVA   |
 
 ### Level-3
 
