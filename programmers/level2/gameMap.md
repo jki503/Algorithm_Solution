@@ -1,109 +1,84 @@
 # 프로그래머스 LEVEL 2 [찾아라 프로그래밍 마에스터] 게임맵 최단 거리
 
+- [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/1844)
+
+</br>
+
 ```java
-import java.util.*;
-import java.lang.Math;
+
+import java.util.Queue;
+import java.util.LinkedList;
 
 class Solution {
 
-    //상(0)우(1)하(2)좌(3)
-    int dirRow[] = {-1,0,1,0};
-    int dirCol[] = {0,1,0,-1};
+    //user 객체
+    class User{
+        int row;
+        int col;
+        int cost;
 
-    class Node{
-        public int row;
-        public int col;
-        public int cost;
-        public int dir;
-
-        Node(int row, int col, int cost, int dir){
+        User(int row, int col,int cost){
             this.row = row;
             this.col = col;
             this.cost = cost;
-            this.dir = dir;
         }
     }
 
-    public int solution(int[][] board) {
-        int answer = 0;
-        int n = board.length;
-        int [][][]costMap = new int[n][n][4];
+    //상우하좌
+    int[] dirRow = {-1,0,1,0};
+    int[] dirCol = {0,1,0,-1};
 
-        Queue<Node> queue = new LinkedList<>();
-        queue.offer(new Node(0,0,0,2)); // 우
-        queue.offer(new Node(0,0,0,1)); // 하
+
+    public int solution(int[][] maps) {
+        int answer = 0;
+        int n = maps.length;
+        int m = maps[0].length;
+        int[][] costMap = new int[n][m];
+
+        Queue<User> queue = new LinkedList<>();
+        queue.offer(new User(0,0,1));
 
         while(!queue.isEmpty()){
-            //지금을 기준으로
-            Node node = queue.poll();
-            int row = node.row;
-            int col = node.col;
-            int cost = node.cost;
-            int dir = node.dir;
+            User user = queue.poll();
+            int row = user.row;
+            int col = user.col;
+            int cost = user.cost;
 
-            // 유효한 위치인지
-            if(!validLocation(row,col,n,board)) continue;
-
-            // 방문한 노드인지
-            if(validVisited(costMap,row,col,dir,cost)) continue;
-            costMap[row][col][dir] = cost;
-
-            //도착했는지
-            if(validDestination(row,col,n))
+            //유효하지 않은 블록인지
+            if(invalidBlock(row,col,n,m,maps))
                 continue;
 
+            //cost가 가장 낮은지
+            if(costMap[row][col]>0 && costMap[row][col] <= cost)
+                continue;
+            costMap[row][col] = cost;
 
-            // 코너 방향 선언
-            int dir2 = (dir+1)%4;
-            int dir3 = (dir+3)%4;
+            //도착 했는지
+            if(row == n-1 && col == m-1)
+                continue;
 
-
-            //직선
-            queue.offer(new Node(row+dirRow[dir], col+dirCol[dir],cost+100,dir));
-
-            //코너
-            queue.offer(new Node(row+dirRow[dir2], col+dirCol[dir2],cost+500+100,dir2));
-            queue.offer(new Node(row+dirRow[dir3], col+dirCol[dir3],cost+500+100,dir3));
-
-        }
-        for(int i=0;i<4;i++){
-            if(costMap[n-1][n-1][i] != 0)
-                if(answer == 0){
-                    answer = costMap[n-1][n-1][i];
-                }
-                else{
-                    answer = Math.min(costMap[n-1][n-1][i],answer);
-                }
+            // push the next block
+            for(int i = 0 ; i < 4; i++){
+                queue.offer(new User(row+dirRow[i],col+dirCol[i],cost+1));
+            }
 
         }
+        answer = costMap[n-1][m-1] == 0 ? -1 : costMap[n-1][m-1];
 
         return answer;
     }
 
+    // return true is next user
+    public boolean invalidBlock(int row,int col, int n, int m, int[][] maps){
 
-    public boolean validLocation(int row, int col,int n, int[][] board){
-        if(row<0 || row >=n
-          || col < 0 || col>= n
-          || board[row][col] == 1){
-            return false;
-        }
-        else
+        if(row < 0 || row >= n
+          || col <0 || col >= m
+          || maps[row][col] == 0){
             return true;
-    }
-
-    public boolean validVisited(int[][][] costMap, int row,int col,int dir, int nowCost){
-        if(costMap[row][col][dir] == 0) return false;
-        else if(costMap[row][col][dir] > nowCost) return false;
-        else return true;
-
-    }
-
-    public boolean validDestination(int row, int col, int n){
-        if(row == n-1 && col == n-1)
-            return true;
-        else
+        }else
             return false;
     }
+
 }
 
 ```
