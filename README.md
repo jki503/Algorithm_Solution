@@ -35,3 +35,9 @@ Author: Jung
 | :-: | :--------------------------------------------------: | :--------: | :------: |
 |  1  |   [경주로 건설](./programmers/level3/raceLoad.md)    | 2021-01-23 |   JAVA   |
 |  2  | [가장 먼 노드](./programmers/level3/farthestnode.md) | 2021-01-25 |   JAVA   |
+
+## 백준
+
+| No.  |                        Name                         |    Date    | Language |
+| :--: | :-------------------------------------------------: | :--------: | :------: |
+| 4949 | [균형잡힌 세상](./baekjoon/class2/balancedWorld.md) | 2021-01-30 |   JAVA   |
