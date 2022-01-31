@@ -1,6 +1,6 @@
 # [class2] 백준 4949 균형잡힌 세상
 
-- 문제링크(https://www.acmicpc.net/problem/4949)
+- [문제링크](https://www.acmicpc.net/problem/4949)
 
 </br>
 
