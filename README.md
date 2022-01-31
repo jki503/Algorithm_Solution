@@ -30,11 +30,12 @@ Author: Jung
 
 ### Level-2
 
-| No. |                         Name                         |    Date    | Language |
-| :-: | :--------------------------------------------------: | :--------: | :------: |
-|  1  | [게임 맵 최단 거리](./programmers/level2/gameMap.md) | 2021-01-24 |   JAVA   |
-|  2  |       [배달](./programmers/level2/delivery.md)       | 2021-01-27 |   JAVA   |
-|  3  |  [피로도](./programmers/level2/fatigueDungeons.md)   | 2021-02-01 |   JAVA   |
+| No. |                               Name                               |    Date    | Language |
+| :-: | :--------------------------------------------------------------: | :--------: | :------: |
+|  1  |       [게임 맵 최단 거리](./programmers/level2/gameMap.md)       | 2021-01-24 |   JAVA   |
+|  2  |             [배달](./programmers/level2/delivery.md)             | 2021-01-27 |   JAVA   |
+|  3  |        [피로도](./programmers/level2/fatigueDungeons.md)         | 2021-02-01 |   JAVA   |
+|  4  | [전력망을 둘로 나누기](./programmers/level2/divideTwoNetwork.md) | 2021-02-01 |   JAVA   |
 
 </br>
 </br>
