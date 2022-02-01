@@ -36,6 +36,7 @@ Author: Jung
 |  2  |             [배달](./programmers/level2/delivery.md)             | 2021-01-27 |   JAVA   |
 |  3  |        [피로도](./programmers/level2/fatigueDungeons.md)         | 2021-02-01 |   JAVA   |
 |  4  | [전력망을 둘로 나누기](./programmers/level2/divideTwoNetwork.md) | 2021-02-01 |   JAVA   |
+|  5  | [k진수에서 소수 개수 구하기](./programmers/level2/solution5.md)  | 2021-02-01 |   JAVA   |
 
 </br>
 </br>
