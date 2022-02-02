@@ -32,31 +32,31 @@ Author: Jung
 
 | No. |                               Name                               |    Date    | Language |
 | :-: | :--------------------------------------------------------------: | :--------: | :------: |
-|  1  |       [게임 맵 최단 거리](./programmers/level2/gameMap.md)       | 2021-01-24 |   JAVA   |
-|  2  |             [배달](./programmers/level2/delivery.md)             | 2021-01-27 |   JAVA   |
-|  3  |        [피로도](./programmers/level2/fatigueDungeons.md)         | 2021-02-01 |   JAVA   |
-|  4  | [전력망을 둘로 나누기](./programmers/level2/divideTwoNetwork.md) | 2021-02-01 |   JAVA   |
-|  5  | [k진수에서 소수 개수 구하기](./programmers/level2/solution5.md)  | 2021-02-01 |   JAVA   |
+|  1  |     [게임 맵 최단 거리](./programmers/level2/solution01.md)      | 2021-01-24 |   JAVA   |
+|  2  |            [배달](./programmers/level2/solution02.md)            | 2021-01-27 |   JAVA   |
+|  3  |           [피로도](./programmers/level2/solution03.md)           | 2021-02-01 |   JAVA   |
+|  4  |    [전력망을 둘로 나누기](./programmers/level2/solution04.md)    | 2021-02-01 |   JAVA   |
+|  5  | [k진수에서 소수 개수 구하기](./programmers/level2/solution05.md) | 2021-02-01 |   JAVA   |
 
 </br>
 </br>
 
 ### Level-3
 
-| No. |                         Name                         |    Date    | Language |
-| :-: | :--------------------------------------------------: | :--------: | :------: |
-|  1  |   [경주로 건설](./programmers/level3/raceLoad.md)    | 2021-01-23 |   JAVA   |
-|  2  | [가장 먼 노드](./programmers/level3/farthestnode.md) | 2021-01-25 |   JAVA   |
-|  3  |    [네트워크](./programmers/level3/solution03.md)    | 2021-02-02 |   JAVA   |
+| No. |                        Name                        |    Date    | Language |
+| :-: | :------------------------------------------------: | :--------: | :------: |
+|  1  | [경주로 건설](./programmers/level3/solution01.md)  | 2021-01-23 |   JAVA   |
+|  2  | [가장 먼 노드](./programmers/level3/solution02.md) | 2021-01-25 |   JAVA   |
+|  3  |   [네트워크](./programmers/level3/solution03.md)   | 2021-02-02 |   JAVA   |
 
 </br>
 </br>
 
 ## 백준
 
-| No.  |                        Name                         |    Date    | Language |
-| :--: | :-------------------------------------------------: | :--------: | :------: |
-| 4949 | [균형잡힌 세상](./baekjoon/class2/balancedWorld.md) | 2021-01-30 |   JAVA   |
+| No.  |                       Name                       |    Date    | Language |
+| :--: | :----------------------------------------------: | :--------: | :------: |
+| 4949 | [균형잡힌 세상](./baekjoon/class2/solution01.md) | 2021-01-30 |   JAVA   |
 
 </br>
 </br>
