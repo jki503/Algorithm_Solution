@@ -43,11 +43,12 @@ Author: Jung
 
 ### Level-3
 
-| No. |                        Name                        |    Date    | Language |
-| :-: | :------------------------------------------------: | :--------: | :------: |
-|  1  | [경주로 건설](./programmers/level3/solution01.md)  | 2021-01-23 |   JAVA   |
-|  2  | [가장 먼 노드](./programmers/level3/solution02.md) | 2021-01-25 |   JAVA   |
-|  3  |   [네트워크](./programmers/level3/solution03.md)   | 2021-02-02 |   JAVA   |
+| No. |                        Name                         |    Date    | Language |
+| :-: | :-------------------------------------------------: | :--------: | :------: |
+|  1  |  [경주로 건설](./programmers/level3/solution01.md)  | 2021-01-23 |   JAVA   |
+|  2  | [가장 먼 노드](./programmers/level3/solution02.md)  | 2021-01-25 |   JAVA   |
+|  3  |   [네트워크](./programmers/level3/solution03.md)    | 2021-02-02 |   JAVA   |
+|  4  | [블록 이동하기](./programmers/level3/solution04.md) | 2021-02-02 |   JAVA   |
 
 </br>
 </br>
