@@ -47,6 +47,7 @@ Author: Jung
 | :-: | :--------------------------------------------------: | :--------: | :------: |
 |  1  |   [경주로 건설](./programmers/level3/raceLoad.md)    | 2021-01-23 |   JAVA   |
 |  2  | [가장 먼 노드](./programmers/level3/farthestnode.md) | 2021-01-25 |   JAVA   |
+|  3  |    [네트워크](./programmers/level3/solution03.md)    | 2021-02-02 |   JAVA   |
 
 </br>
 </br>
