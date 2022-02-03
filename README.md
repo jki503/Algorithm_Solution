@@ -38,6 +38,7 @@ Author: Jung
 |  4  |    [전력망을 둘로 나누기](./programmers/level2/solution04.md)    | 2021-02-01 |   JAVA   |
 |  5  | [k진수에서 소수 개수 구하기](./programmers/level2/solution05.md) | 2021-02-01 |   JAVA   |
 |  6  |        [메뉴 리뉴얼](./programmers/level2/solution06.md)         | 2021-02-02 |   JAVA   |
+|  7  |       [단체 사진 찍기](./programmers/level2/solution07.md)       | 2021-02-03 |   JAVA   |
 
 </br>
 </br>
