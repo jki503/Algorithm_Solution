@@ -60,6 +60,7 @@ Author: Jung
 | No.  |                       Name                       |    Date    | Language |
 | :--: | :----------------------------------------------: | :--------: | :------: |
 | 4949 | [균형잡힌 세상](./baekjoon/class2/solution01.md) | 2021-01-30 |   JAVA   |
+| 7568 |     [덩치](./baekjoon/class2/solution02.md)      | 2021-02-03 |   JAVA   |
 
 </br>
 </br>
