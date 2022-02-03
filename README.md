@@ -63,7 +63,7 @@ Author: Jung
 | 4949  | [균형잡힌 세상](./baekjoon/class2/solution01.md) | 2021-01-30 |   JAVA   |
 | 7568  |     [덩치](./baekjoon/class2/solution02.md)      | 2021-02-03 |   JAVA   |
 | 9012  |     [괄호](./baekjoon/class2/solution03.md)      | 2021-02-03 |   JAVA   |
-| 10250 |     [괄호](./baekjoon/class2/solution04.md)      | 2021-02-03 |   JAVA   |
+| 10250 |     [ACM 호텔](./baekjoon/class2/solution04.md)      | 2021-02-03 |   JAVA   |
 
 </br>
 </br>
