@@ -54,6 +54,7 @@ Author: Jung
 |  4  | [블록 이동하기](./programmers/level3/solution04.md) | 2021-02-02 |   JAVA   |
 |  5  |   [거스름돈](./programmers/level3/solution05.md)    | 2021-02-02 |   JAVA   |
 |  6  |    [등굣길](./programmers/level3/solution06.md)     | 2021-02-04 |   JAVA   |
+|  7  |   [여행 경로](./programmers/level3/solution07.md)   | 2021-02-04 |   JAVA   |
 
 </br>
 </br>
