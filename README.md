@@ -47,6 +47,7 @@ Author: Jung
 | 13  |         [기능 개발](./programmers/level2/solution13.md)          | 2021-02-07 |   JAVA   |
 | 14  |         [타겟 넘버](./programmers/level2/solution14.md)          | 2021-02-07 |   JAVA   |
 | 15  |      [짝지어 제거하기](./programmers/level2/solution15.md)       | 2021-02-07 |   JAVA   |
+| 16  |         [방문 길이](./programmers/level2/solution16.md)          | 2021-02-07 |   JAVA   |
 
 </br>
 </br>
