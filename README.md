@@ -46,6 +46,7 @@ Author: Jung
 | 12  |        [문자열 압축](./programmers/level2/solution12.md)         | 2021-02-07 |   JAVA   |
 | 13  |         [기능 개발](./programmers/level2/solution13.md)          | 2021-02-07 |   JAVA   |
 | 14  |         [타겟 넘버](./programmers/level2/solution14.md)          | 2021-02-07 |   JAVA   |
+| 15  |      [짝지어 제거하기](./programmers/level2/solution15.md)       | 2021-02-07 |   JAVA   |
 
 </br>
 </br>
