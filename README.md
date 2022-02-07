@@ -68,7 +68,7 @@ Author: Jung
 |  8  |   [보행자 천국](./programmers/level3/solution08.md)    | 2021-02-07 |   JAVA   |
 |  9  |  [이중우선순위큐](./programmers/level3/solution09.md)  | 2021-02-07 |   JAVA   |
 | 10  | [다단계 칫솔 판매](./programmers/level3/solution10.md) | 2021-02-07 |   JAVA   |
-| 10  |   [최고의 집합](./programmers/level3/solution11.md)    | 2021-02-07 |   JAVA   |
+| 11  |   [최고의 집합](./programmers/level3/solution11.md)    | 2021-02-07 |   JAVA   |
 
 </br>
 </br>
