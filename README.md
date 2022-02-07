@@ -46,17 +46,17 @@ Author: Jung
 
 ### Level-3
 
-| No. |                         Name                          |    Date    | Language |
-| :-: | :---------------------------------------------------: | :--------: | :------: |
-|  1  |   [경주로 건설](./programmers/level3/solution01.md)   | 2021-01-23 |   JAVA   |
-|  2  |  [가장 먼 노드](./programmers/level3/solution02.md)   | 2021-01-25 |   JAVA   |
-|  3  |    [네트워크](./programmers/level3/solution03.md)     | 2021-02-02 |   JAVA   |
-|  4  |  [블록 이동하기](./programmers/level3/solution04.md)  | 2021-02-02 |   JAVA   |
-|  5  |    [거스름돈](./programmers/level3/solution05.md)     | 2021-02-02 |   JAVA   |
-|  6  |     [등굣길](./programmers/level3/solution06.md)      | 2021-02-04 |   JAVA   |
-|  7  |    [여행 경로](./programmers/level3/solution07.md)    | 2021-02-04 |   JAVA   |
-|  8  |   [보행자 천국](./programmers/level3/solution08.md)   | 2021-02-07 |   JAVA   |
-|  9  | [이준우선순위큐]](./programmers/level3/solution09.md) | 2021-02-07 |   JAVA   |
+| No. |                         Name                         |    Date    | Language |
+| :-: | :--------------------------------------------------: | :--------: | :------: |
+|  1  |  [경주로 건설](./programmers/level3/solution01.md)   | 2021-01-23 |   JAVA   |
+|  2  |  [가장 먼 노드](./programmers/level3/solution02.md)  | 2021-01-25 |   JAVA   |
+|  3  |    [네트워크](./programmers/level3/solution03.md)    | 2021-02-02 |   JAVA   |
+|  4  | [블록 이동하기](./programmers/level3/solution04.md)  | 2021-02-02 |   JAVA   |
+|  5  |    [거스름돈](./programmers/level3/solution05.md)    | 2021-02-02 |   JAVA   |
+|  6  |     [등굣길](./programmers/level3/solution06.md)     | 2021-02-04 |   JAVA   |
+|  7  |   [여행 경로](./programmers/level3/solution07.md)    | 2021-02-04 |   JAVA   |
+|  8  |  [보행자 천국](./programmers/level3/solution08.md)   | 2021-02-07 |   JAVA   |
+|  9  | [이중우선순위큐](./programmers/level3/solution09.md) | 2021-02-07 |   JAVA   |
 
 </br>
 </br>
