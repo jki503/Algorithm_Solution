@@ -40,6 +40,7 @@ Author: Jung
 |  6  |        [메뉴 리뉴얼](./programmers/level2/solution06.md)         | 2021-02-02 |   JAVA   |
 |  7  |       [단체 사진 찍기](./programmers/level2/solution07.md)       | 2021-02-03 |   JAVA   |
 |  8  |          [더 맵게](./programmers/level2/solution08.md)           | 2021-02-03 |   JAVA   |
+|  9  |         [소수 찾기](./programmers/level2/solution09.md)          | 2021-02-07 |   JAVA   |
 
 </br>
 </br>
