@@ -44,6 +44,7 @@ Author: Jung
 | 10  |        [예상 대진표](./programmers/level2/solution10.md)         | 2021-02-07 |   JAVA   |
 | 11  |            [위장](./programmers/level2/solution11.md)            | 2021-02-07 |   JAVA   |
 | 12  |        [문자열 압축](./programmers/level2/solution12.md)         | 2021-02-07 |   JAVA   |
+| 13  |         [기능 개발](./programmers/level2/solution13.md)          | 2021-02-07 |   JAVA   |
 
 </br>
 </br>
