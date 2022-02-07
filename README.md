@@ -48,6 +48,7 @@ Author: Jung
 | 14  |         [타겟 넘버](./programmers/level2/solution14.md)          | 2021-02-07 |   JAVA   |
 | 15  |      [짝지어 제거하기](./programmers/level2/solution15.md)       | 2021-02-07 |   JAVA   |
 | 16  |         [방문 길이](./programmers/level2/solution16.md)          | 2021-02-07 |   JAVA   |
+| 17  |         [스킬 트리](./programmers/level2/solution17.md)          | 2021-02-07 |   JAVA   |
 
 </br>
 </br>
