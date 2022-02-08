@@ -54,6 +54,7 @@ Author: Jung
 | 20  |      [뉴스 클러스터링](./programmers/level2/solution20.md)       | 2021-02-08 |   JAVA   |
 | 21  |            [캐시](./programmers/level2/solution21.md)            | 2021-02-08 |   JAVA   |
 | 22  |            [압축](./programmers/level2/solution22.md)            | 2021-02-08 |   JAVA   |
+| 23  |        [삼각 달팽이](./programmers/level2/solution23.md)         | 2021-02-08 |   JAVA   |
 
 </br>
 </br>
