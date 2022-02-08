@@ -51,6 +51,7 @@ Author: Jung
 | 17  |         [스킬 트리](./programmers/level2/solution17.md)          | 2021-02-07 |   JAVA   |
 | 18  |         [괄호 변환](./programmers/level2/solution18.md)          | 2021-02-08 |   JAVA   |
 | 19  |            [튜플](./programmers/level2/solution19.md)            | 2021-02-08 |   JAVA   |
+| 20  |      [뉴스 클러스터링](./programmers/level2/solution20.md)       | 2021-02-08 |   JAVA   |
 
 </br>
 </br>
