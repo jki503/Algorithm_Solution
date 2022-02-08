@@ -69,6 +69,7 @@ Author: Jung
 |  9  |  [이중우선순위큐](./programmers/level3/solution09.md)  | 2021-02-07 |   JAVA   |
 | 10  | [다단계 칫솔 판매](./programmers/level3/solution10.md) | 2021-02-07 |   JAVA   |
 | 11  |   [최고의 집합](./programmers/level3/solution11.md)    | 2021-02-07 |   JAVA   |
+| 12  | [가장 긴 팰린드롬](./programmers/level3/solution12.md) | 2021-02-08 |   JAVA   |
 
 </br>
 </br>
