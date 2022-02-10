@@ -58,6 +58,7 @@ Author: Jung
 | 24  |       [영어 끝말잇기](./programmers/level2/solution24.md)        | 2021-02-08 |   JAVA   |
 | 25  |    [행렬 테두리 회전하기](./programmers/level2/solution25.md)    | 2021-02-09 |   JAVA   |
 | 26  |       [주차 요금 계산](./programmers/level2/solution26.md)       | 2021-02-10 |   JAVA   |
+| 27  |   [쿼드 압축 후 개수 세기](./programmers/level2/solution27.md)   | 2021-02-10 |   JAVA   |
 
 </br>
 </br>
