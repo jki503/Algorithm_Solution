@@ -59,6 +59,7 @@ Author: Jung
 | 25  |    [행렬 테두리 회전하기](./programmers/level2/solution25.md)    | 2021-02-09 |   JAVA   |
 | 26  |       [주차 요금 계산](./programmers/level2/solution26.md)       | 2021-02-10 |   JAVA   |
 | 27  |   [쿼드 압축 후 개수 세기](./programmers/level2/solution27.md)   | 2021-02-10 |   JAVA   |
+| 28  |         [방금 그곡](./programmers/level2/solution28.md)          | 2021-02-10 |   JAVA   |
 
 </br>
 </br>
