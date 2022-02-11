@@ -60,6 +60,7 @@ Author: Jung
 | 26  |       [주차 요금 계산](./programmers/level2/solution26.md)       | 2021-02-10 |   JAVA   |
 | 27  |   [쿼드 압축 후 개수 세기](./programmers/level2/solution27.md)   | 2021-02-10 |   JAVA   |
 | 28  |         [방금 그곡](./programmers/level2/solution28.md)          | 2021-02-10 |   JAVA   |
+| 29  |        [파일명 정렬](./programmers/level2/solution29.md)         | 2021-02-11 |   JAVA   |
 
 </br>
 </br>
