@@ -11,6 +11,12 @@ Author: Jung
 - 내가 푼 문제들 기록 하기
 - 내가 이해하고 풀었을때 commit 하기
 
+## Skills
+
+|              JAVA               |
+| :-----------------------------: |
+| [Skills](./java_skill/skill.md) |
+
 </br>
 
 ## Programmers
@@ -22,6 +28,8 @@ Author: Jung
 
 ### Level-1
 
+---
+
 | No. | Name | Date | Language |
 | :-: | :--: | :--: | -------- |
 
@@ -29,6 +37,8 @@ Author: Jung
 </br>
 
 ### Level-2
+
+---
 
 | No. |                               Name                               |    Date    | Language |
 | :-: | :--------------------------------------------------------------: | :--------: | :------: |
