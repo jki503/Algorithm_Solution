@@ -61,6 +61,7 @@ Author: Jung
 | 27  |   [쿼드 압축 후 개수 세기](./programmers/level2/solution27.md)   | 2021-02-10 |   JAVA   |
 | 28  |         [방금 그곡](./programmers/level2/solution28.md)          | 2021-02-10 |   JAVA   |
 | 29  |        [파일명 정렬](./programmers/level2/solution29.md)         | 2021-02-11 |   JAVA   |
+| 30  |        [프렌즈4블록](./programmers/level2/solution30.md)         | 2021-02-12 |   JAVA   |
 
 </br>
 </br>
