@@ -16,6 +16,7 @@ Author: Jung
 |              JAVA               |
 | :-----------------------------: |
 | [Skills](./java_skill/skill.md) |
+|  [Sort](./java_skill/sort.md)   |
 
 </br>
 
