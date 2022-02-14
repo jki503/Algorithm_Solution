@@ -77,6 +77,7 @@ Author: Jung
 | 32  |        [수식 최대화](./programmers/level2/solution32.md)         | 2021-02-14 |   JAVA   |
 | 33  |     [거리두기 확인하기](./programmers/level2/solution33.md)      | 2021-02-14 |   JAVA   |
 | 34  |   [카카오프렌즈 컬러링북](./programmers/level2/solution34.md)    | 2021-02-14 |   JAVA   |
+| 35  |        [오픈 채팅방](./programmers/level2/solution35.md)         | 2021-02-14 |   JAVA   |
 
 </br>
 </br>
