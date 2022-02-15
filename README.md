@@ -79,7 +79,7 @@ Author: Jung
 | 34  |   [카카오프렌즈 컬러링북](./programmers/level2/solution34.md)    | 2021-02-14 |   JAVA   |
 | 35  |        [오픈 채팅방](./programmers/level2/solution35.md)         | 2021-02-14 |   JAVA   |
 | 36  |         [가장 큰 수](./programmers/level2/solution36.md)         | 2021-02-15 |   JAVA   |
-| 37  |         [가장 큰 수](./programmers/level2/solution37.md)         | 2021-02-15 |   JAVA   |
+| 37  |          [구명보트](./programmers/level2/solution37.md)          | 2021-02-15 |   JAVA   |
 
 </br>
 </br>
