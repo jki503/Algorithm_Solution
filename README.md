@@ -108,6 +108,7 @@ Author: Jung
 | 17  |       [표 편집](./programmers/level3/solution17.md)       | 2021-02-16 |   JAVA   |
 | 18  | [파괴 되지 않은 건물](./programmers/level3/solution18.md) | 2021-02-16 |   JAVA   |
 | 19  |  [징검 다리 건너기](./programmers/level3/solution19.md)   | 2021-02-16 |   JAVA   |
+| 20  |     [아이템 줍기](./programmers/level3/solution20.md)     | 2021-02-16 |   JAVA   |
 
 </br>
 </br>
