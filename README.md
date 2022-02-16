@@ -87,25 +87,26 @@ Author: Jung
 
 ### Level-3
 
-| No. |                          Name                          |    Date    | Language |
-| :-: | :----------------------------------------------------: | :--------: | :------: |
-|  1  |   [경주로 건설](./programmers/level3/solution01.md)    | 2021-01-23 |   JAVA   |
-|  2  |   [가장 먼 노드](./programmers/level3/solution02.md)   | 2021-01-25 |   JAVA   |
-|  3  |     [네트워크](./programmers/level3/solution03.md)     | 2021-02-02 |   JAVA   |
-|  4  |  [블록 이동하기](./programmers/level3/solution04.md)   | 2021-02-02 |   JAVA   |
-|  5  |     [거스름돈](./programmers/level3/solution05.md)     | 2021-02-02 |   JAVA   |
-|  6  |      [등굣길](./programmers/level3/solution06.md)      | 2021-02-04 |   JAVA   |
-|  7  |    [여행 경로](./programmers/level3/solution07.md)     | 2021-02-04 |   JAVA   |
-|  8  |   [보행자 천국](./programmers/level3/solution08.md)    | 2021-02-07 |   JAVA   |
-|  9  |  [이중우선순위큐](./programmers/level3/solution09.md)  | 2021-02-07 |   JAVA   |
-| 10  | [다단계 칫솔 판매](./programmers/level3/solution10.md) | 2021-02-07 |   JAVA   |
-| 11  |   [최고의 집합](./programmers/level3/solution11.md)    | 2021-02-07 |   JAVA   |
-| 12  | [가장 긴 팰린드롬](./programmers/level3/solution12.md) | 2021-02-08 |   JAVA   |
-| 13  |    [단어 변환](./programmers/level3/solution13.md)     | 2021-02-08 |   JAVA   |
-| 14  |   [단속 카메라](./programmers/level3/solution14.md)    | 2021-02-15 |   JAVA   |
-| 15  |   [기지국 설치](./programmers/level3/solution15.md)    | 2021-02-15 |   JAVA   |
-| 16  |    [셔틀 버스](./programmers/level3/solution16.md)     | 2021-02-16 |   JAVA   |
-| 17  |     [표 편집](./programmers/level3/solution17.md)      | 2021-02-16 |   JAVA   |
+| No. |                           Name                            |    Date    | Language |
+| :-: | :-------------------------------------------------------: | :--------: | :------: |
+|  1  |     [경주로 건설](./programmers/level3/solution01.md)     | 2021-01-23 |   JAVA   |
+|  2  |    [가장 먼 노드](./programmers/level3/solution02.md)     | 2021-01-25 |   JAVA   |
+|  3  |      [네트워크](./programmers/level3/solution03.md)       | 2021-02-02 |   JAVA   |
+|  4  |    [블록 이동하기](./programmers/level3/solution04.md)    | 2021-02-02 |   JAVA   |
+|  5  |      [거스름돈](./programmers/level3/solution05.md)       | 2021-02-02 |   JAVA   |
+|  6  |       [등굣길](./programmers/level3/solution06.md)        | 2021-02-04 |   JAVA   |
+|  7  |      [여행 경로](./programmers/level3/solution07.md)      | 2021-02-04 |   JAVA   |
+|  8  |     [보행자 천국](./programmers/level3/solution08.md)     | 2021-02-07 |   JAVA   |
+|  9  |   [이중우선순위큐](./programmers/level3/solution09.md)    | 2021-02-07 |   JAVA   |
+| 10  |  [다단계 칫솔 판매](./programmers/level3/solution10.md)   | 2021-02-07 |   JAVA   |
+| 11  |     [최고의 집합](./programmers/level3/solution11.md)     | 2021-02-07 |   JAVA   |
+| 12  |  [가장 긴 팰린드롬](./programmers/level3/solution12.md)   | 2021-02-08 |   JAVA   |
+| 13  |      [단어 변환](./programmers/level3/solution13.md)      | 2021-02-08 |   JAVA   |
+| 14  |     [단속 카메라](./programmers/level3/solution14.md)     | 2021-02-15 |   JAVA   |
+| 15  |     [기지국 설치](./programmers/level3/solution15.md)     | 2021-02-15 |   JAVA   |
+| 16  |      [셔틀 버스](./programmers/level3/solution16.md)      | 2021-02-16 |   JAVA   |
+| 17  |       [표 편집](./programmers/level3/solution17.md)       | 2021-02-16 |   JAVA   |
+| 18  | [파괴 되지 않은 건물](./programmers/level3/solution18.md) | 2021-02-16 |   JAVA   |
 
 </br>
 </br>
