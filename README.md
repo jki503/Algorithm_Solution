@@ -82,6 +82,7 @@ Author: Jung
 | 37  |          [구명보트](./programmers/level2/solution37.md)          | 2021-02-15 |   JAVA   |
 | 38  |    [2개 이하로 다른 비트](./programmers/level2/solution38.md)    | 2021-02-15 |   JAVA   |
 | 39  |        [행렬의 곱셈](./programmers/level2/solution39.md)         | 2021-02-18 |   JAVA   |
+| 40  |       [124나라의 숫자](./programmers/level2/solution40.md)       | 2021-02-18 |   JAVA   |
 
 </br>
 </br>
