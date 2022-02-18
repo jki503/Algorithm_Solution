@@ -89,6 +89,7 @@ Author: Jung
 | 44  |  [JadenCase 문자열 만들기](./programmers/level2/solution44.md)   | 2021-02-18 |   JAVA   |
 | 45  |        [피보나치 수](./programmers/level2/solution45.md)         | 2021-02-18 |   JAVA   |
 | 46  |       [최솟값 만들기](./programmers/level2/solution46.md)        | 2021-02-18 |   JAVA   |
+| 47  |      [최댓값과 최솟값](./programmers/level2/solution47.md)       | 2021-02-18 |   JAVA   |
 
 </br>
 </br>
