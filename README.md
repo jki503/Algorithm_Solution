@@ -84,6 +84,7 @@ Author: Jung
 | 39  |        [행렬의 곱셈](./programmers/level2/solution39.md)         | 2021-02-18 |   JAVA   |
 | 40  |       [124나라의 숫자](./programmers/level2/solution40.md)       | 2021-02-18 |   JAVA   |
 | 41  |       [전화번호 목록](./programmers/level2/solution41.md)        | 2021-02-18 |   JAVA   |
+| 42  |        [숫자의 표현](./programmers/level2/solution42.md)         | 2021-02-18 |   JAVA   |
 
 </br>
 </br>
