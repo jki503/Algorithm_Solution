@@ -87,6 +87,7 @@ Author: Jung
 | 42  |        [숫자의 표현](./programmers/level2/solution42.md)         | 2021-02-18 |   JAVA   |
 | 43  |     [N개의 최소 공배수](./programmers/level2/solution43.md)      | 2021-02-18 |   JAVA   |
 | 44  |  [JadenCase 문자열 만들기](./programmers/level2/solution44.md)   | 2021-02-18 |   JAVA   |
+| 45  |        [피보나치 수](./programmers/level2/solution45.md)         | 2021-02-18 |   JAVA   |
 
 </br>
 </br>
