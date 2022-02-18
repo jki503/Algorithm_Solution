@@ -92,6 +92,7 @@ Author: Jung
 | 47  |      [최댓값과 최솟값](./programmers/level2/solution47.md)       | 2021-02-18 |   JAVA   |
 | 48  |        [다음 큰 숫자](./programmers/level2/solution48.md)        | 2021-02-18 |   JAVA   |
 | 49  |          [땅따먹기](./programmers/level2/solution49.md)          | 2021-02-18 |   JAVA   |
+| 50  |      [점프와 순간 이동](./programmers/level2/solution50.md)      | 2021-02-18 |   JAVA   |
 
 </br>
 </br>
