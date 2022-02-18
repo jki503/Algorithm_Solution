@@ -94,6 +94,7 @@ Author: Jung
 | 49  |          [땅따먹기](./programmers/level2/solution49.md)          | 2021-02-18 |   JAVA   |
 | 50  |      [점프와 순간 이동](./programmers/level2/solution50.md)      | 2021-02-18 |   JAVA   |
 | 51  |     [이진 변환 반복하기](./programmers/level2/solution51.md)     | 2021-02-18 |   JAVA   |
+| 52  |        [큰 수 만들기](./programmers/level2/solution52.md)        | 2021-02-18 |   JAVA   |
 
 </br>
 </br>
