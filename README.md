@@ -129,6 +129,7 @@ Author: Jung
 | 22  |    [풍선 터트리기](./programmers/level3/solution22.md)    | 2022-02-17 |   JAVA   |
 | 23  |  [모두 0으로 만들기](./programmers/level3/solution23.md)  | 2022-02-17 |   JAVA   |
 | 24  |     [섬 연결하기](./programmers/level3/solution24.md)     | 2022-02-21 |   JAVA   |
+| 25  |   [합승 택시 요금](./programmers/level3/solution25.md)    | 2022-02-21 |   JAVA   |
 
 </br>
 </br>
