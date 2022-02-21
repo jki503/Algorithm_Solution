@@ -128,6 +128,7 @@ Author: Jung
 | 21  |       [N-Queen](./programmers/level3/solution21.md)       | 2022-02-16 |   JAVA   |
 | 22  |    [풍선 터트리기](./programmers/level3/solution22.md)    | 2022-02-17 |   JAVA   |
 | 23  |  [모두 0으로 만들기](./programmers/level3/solution23.md)  | 2022-02-17 |   JAVA   |
+| 23  |     [섬 연결하기](./programmers/level3/solution24.md)     | 2022-02-21 |   JAVA   |
 
 </br>
 </br>
