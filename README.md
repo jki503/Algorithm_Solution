@@ -131,6 +131,7 @@ Author: Jung
 | 24  |     [섬 연결하기](./programmers/level3/solution24.md)     | 2022-02-21 |   JAVA   |
 | 25  |   [합승 택시 요금](./programmers/level3/solution25.md)    | 2022-02-21 |   JAVA   |
 | 26  |   [기둥과 보 설치](./programmers/level3/solution26.md)    | 2022-02-22 |   JAVA   |
+| 27  |      [야근 지수](./programmers/level3/solution27.md)      | 2022-02-22 |   JAVA   |
 
 </br>
 </br>
