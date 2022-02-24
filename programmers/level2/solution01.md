@@ -11,74 +11,112 @@ import java.util.LinkedList;
 
 class Solution {
 
-    //user 객체
-    class User{
-        int row;
-        int col;
-        int cost;
-
-        User(int row, int col,int cost){
-            this.row = row;
-            this.col = col;
-            this.cost = cost;
-        }
-    }
-
-    //상우하좌
-    int[] dirRow = {-1,0,1,0};
-    int[] dirCol = {0,1,0,-1};
-
+    // 상(0) 우(1) 하(2) 좌(3)
+    int[] dirX = {0,1,0,-1};
+    int[] dirY = {-1,0,1,0};
 
     public int solution(int[][] maps) {
         int answer = 0;
+
         int n = maps.length;
         int m = maps[0].length;
+
         int[][] costMap = new int[n][m];
 
-        Queue<User> queue = new LinkedList<>();
-        queue.offer(new User(0,0,1));
+        Queue<User> q = new LinkedList<>();
 
-        while(!queue.isEmpty()){
-            User user = queue.poll();
-            int row = user.row;
-            int col = user.col;
-            int cost = user.cost;
+        // 초기 객체
+        q.offer(new User(0,0,1));
 
-            //유효하지 않은 블록인지
-            if(invalidBlock(row,col,n,m,maps))
+        // 현재 블록을 기준으로 검사
+        while(!q.isEmpty()){
+
+            User curr = q.poll();
+
+            int x = curr.x;
+            int y = curr.y;
+            int cost = curr.cost;
+
+
+            // 유효한 위치 판단
+            if(!checkValid(y,x,n,m,maps))
                 continue;
 
-            //cost가 가장 낮은지
-            if(costMap[row][col]>0 && costMap[row][col] <= cost)
-                continue;
-            costMap[row][col] = cost;
-
-            //도착 했는지
-            if(row == n-1 && col == m-1)
+            // 최소 비용인지
+            if(costMap[y][x] != 0 && costMap[y][x] <= cost)
                 continue;
 
-            // push the next block
-            for(int i = 0 ; i < 4; i++){
-                queue.offer(new User(row+dirRow[i],col+dirCol[i],cost+1));
-            }
+            costMap[y][x] = cost;
+
+            // 도착했는지
+            if(y == n-1 && x == m-1)
+                continue;
+
+            for(int i=0;i<4;i++)
+                q.offer(new User(x+dirX[i], y+dirY[i], cost+1));
 
         }
+
+
+        /* 다음 블록 기준으로 검사
+        while(!q.isEmpty()){
+
+            User curr = q.poll();
+
+            int x = curr.x;
+            int y = curr.y;
+            int cost = curr.cost;
+
+            for(int i=0;i<4;i++){
+
+                int nextX = x + dirX[i];
+                int nextY = y + dirY[i];
+                int nextCost = cost + 1;
+
+                // 유효한 위치 판단
+                if(!checkValid(nextY,nextX,n,m,maps))
+                    continue;
+
+                // 최소 비용 판단
+                if(costMap[nextY][nextX] !=0 && costMap[nextY][nextX] <= nextCost)
+                    continue;
+
+                costMap[nextY][nextX] = nextCost;
+
+                // 도착 인지
+                if(nextY == n-1 && nextX == m-1)
+                    continue;
+
+                q.offer(new User(nextX,nextY,nextCost));
+            }
+
+        }*/
+
         answer = costMap[n-1][m-1] == 0 ? -1 : costMap[n-1][m-1];
 
         return answer;
     }
 
-    // return true is next user
-    public boolean invalidBlock(int row,int col, int n, int m, int[][] maps){
+    public boolean checkValid(int y, int x, int n, int m, int[][] arr){
 
-        if(row < 0 || row >= n
-          || col <0 || col >= m
-          || maps[row][col] == 0){
+        if( y<0 || y >=n// row 검사
+        || x<0 || x>=m // col 검사
+        || arr[y][x] == 0) return false;// 벽 검사
+        else
             return true;
-        }else
-            return false;
     }
 
-}
+    class User{
 
+        int x;
+        int y;
+        int cost;
+
+        User(int x, int y, int cost){
+            this.x = x;
+            this.y = y;
+            this.cost = cost;
+        }
+    }
+}
 ```
