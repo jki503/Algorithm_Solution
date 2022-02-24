@@ -98,6 +98,7 @@ Author: Jung
 | 51  |     [이진 변환 반복하기](./programmers/level2/solution51.md)     | 2022-02-18 |   JAVA   |
 | 52  |        [큰 수 만들기](./programmers/level2/solution52.md)        | 2022-02-18 |   JAVA   |
 | 53  |          [H-Index](./programmers/level2/solution53.md)           | 2022-02-18 |   JAVA   |
+| 54  |        [올바른 괄호](./programmers/level2/solution54.md)         | 2022-02-24 |   JAVA   |
 
 </br>
 </br>
