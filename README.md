@@ -135,6 +135,7 @@ Author: Jung
 | 26  |   [기둥과 보 설치](./programmers/level3/solution26.md)    | 2022-02-22 |   JAVA   |
 | 27  |      [야근 지수](./programmers/level3/solution27.md)      | 2022-02-22 |   JAVA   |
 | 28  |     [불량 사용자](./programmers/level3/solution28.md)     | 2022-02-23 |   JAVA   |
+| 289 |     [추석 트래픽](./programmers/level3/solution29.md)     | 2022-02-24 |   JAVA   |
 
 </br>
 </br>
