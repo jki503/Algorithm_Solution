@@ -101,6 +101,7 @@ Author: Jung
 | 52  |        [큰 수 만들기](./programmers/level2/solution52.md)        | 2022-02-18 |   JAVA   |
 | 53  |          [H-Index](./programmers/level2/solution53.md)           | 2022-02-18 |   JAVA   |
 | 54  |        [올바른 괄호](./programmers/level2/solution54.md)         | 2022-02-24 |   JAVA   |
+| 55  |   [가장 큰 정사각형 찾기](./programmers/level2/solution55.md)    | 2022-02-25 |   JAVA   |
 
 </br>
 </br>
