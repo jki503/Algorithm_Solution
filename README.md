@@ -35,7 +35,8 @@ Author: Jung
 | :-: | :----------------------------------------------------------------: | :--------: | -------- |
 |  1  |        [신고 결과 받기](./programmers/level1/solution01.md)        | 2022-02-18 | JAVA     |
 |  2  | [로또의 최고 순위와 최저 순위](./programmers/level1/solution02.md) | 2022-02-24 | JAVA     |
-|  3  |       [없는 숫자 더하기](./programmers/level1/solution02.md)       | 2022-02-25 | JAVA     |
+|  3  |       [없는 숫자 더하기](./programmers/level1/solution03.md)       | 2022-02-25 | JAVA     |
+|  4  |        [키패드 누르기](./programmers/level1/solution04.md)         | 2022-02-26 | JAVA     |
 
 </br>
 </br>
