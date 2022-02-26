@@ -143,6 +143,7 @@ Author: Jung
 | 29  |     [추석 트래픽](./programmers/level3/solution29.md)     | 2022-02-24 |   JAVA   |
 | 30  |      [광고 삽입](./programmers/level3/solution30.md)      | 2022-02-25 |   JAVA   |
 | 31  |     [110 옮기기](./programmers/level3/solution31.md)      | 2022-02-25 |   JAVA   |
+| 32  |      [숫자 게임](./programmers/level3/solution32.md)      | 2022-02-26 |   JAVA   |
 
 </br>
 </br>
