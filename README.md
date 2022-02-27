@@ -39,6 +39,7 @@ Author: Jung
 |  4  |        [키패드 누르기](./programmers/level1/solution04.md)         | 2022-02-25 | JAVA     |
 |  5  |     [숫자 문자열과 영단어](./programmers/level1/solution05.md)     | 2022-02-25 | JAVA     |
 |  6  |       [신규 아이디 추천](./programmers/level1/solution06.md)       | 2022-02-25 | JAVA     |
+|  7  |         [음양 더하기](./programmers/level1/solution07.md)          | 2022-02-27 | JAVA     |
 
 </br>
 </br>
