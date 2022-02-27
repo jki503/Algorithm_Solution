@@ -146,6 +146,7 @@ Author: Jung
 | 30  |      [광고 삽입](./programmers/level3/solution30.md)      | 2022-02-25 |   JAVA   |
 | 31  |     [110 옮기기](./programmers/level3/solution31.md)      | 2022-02-25 |   JAVA   |
 | 32  |      [숫자 게임](./programmers/level3/solution32.md)      | 2022-02-26 |   JAVA   |
+| 33  |     [베스트 앨범](./programmers/level3/solution33.md)     | 2022-02-27 |   JAVA   |
 
 </br>
 </br>
