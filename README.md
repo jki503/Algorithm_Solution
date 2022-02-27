@@ -49,6 +49,7 @@ Author: Jung
 | 14  |            [체육복](./programmers/level1/solution14.md)            | 2022-02-27 | JAVA     |
 | 15  |            [실패율](./programmers/level1/solution15.md)            | 2022-02-27 | JAVA     |
 | 16  |            [폰켓몬](./programmers/level1/solution16.md)            | 2022-02-27 | JAVA     |
+| 17  |      [약수의 개수와 덧셈](./programmers/level1/solution17.md)      | 2022-02-27 | JAVA     |
 
 </br>
 </br>
