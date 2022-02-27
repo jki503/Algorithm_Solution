@@ -43,6 +43,7 @@ Author: Jung
 |  8  |    [크레인 인형 뽑기 게임](./programmers/level1/solution08.md)     | 2022-02-27 | JAVA     |
 |  9  |         [소수 만들기](./programmers/level1/solution09.md)          | 2022-02-27 | JAVA     |
 | 10  |      [완주하지 못한 선수](./programmers/level1/solution10.md)      | 2022-02-27 | JAVA     |
+| 11  |           [K번째 수](./programmers/level1/solution11.md)           | 2022-02-27 | JAVA     |
 
 </br>
 </br>
