@@ -44,6 +44,8 @@ Author: Jung
 |  9  |         [소수 만들기](./programmers/level1/solution09.md)          | 2022-02-27 | JAVA     |
 | 10  |      [완주하지 못한 선수](./programmers/level1/solution10.md)      | 2022-02-27 | JAVA     |
 | 11  |           [K번째 수](./programmers/level1/solution11.md)           | 2022-02-27 | JAVA     |
+| 12  |             [내적](./programmers/level1/solution12.md)             | 2022-02-27 | JAVA     |
+| 13  |           [모의고사](./programmers/level1/solution13.md)           | 2022-02-27 | JAVA     |
 
 </br>
 </br>
