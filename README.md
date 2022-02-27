@@ -50,6 +50,9 @@ Author: Jung
 | 15  |            [실패율](./programmers/level1/solution15.md)            | 2022-02-27 | JAVA     |
 | 16  |            [폰켓몬](./programmers/level1/solution16.md)            | 2022-02-27 | JAVA     |
 | 17  |      [약수의 개수와 덧셈](./programmers/level1/solution17.md)      | 2022-02-27 | JAVA     |
+| 18  |             [예산](./programmers/level1/solution18.md)             | 2022-02-27 | JAVA     |
+| 19  |         [3진법 뒤집기](./programmers/level1/solution19.md)         | 2022-02-27 | JAVA     |
+| 20  |     [두 개 뽑아서 더하기](./programmers/level1/solution20.md)      | 2022-02-27 | JAVA     |
 
 </br>
 </br>
