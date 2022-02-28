@@ -70,6 +70,8 @@ Author: Jung
 | 35  |     [서울에서 김서방 찾기](./programmers/level1/solution35.md)     | 2022-03-01 | JAVA     |
 | 36  |          [소수 찾기](./programmers/level1/solution36.md)           | 2022-03-01 | JAVA     |
 | 37  |   [수박수박수박수박수박수?](./programmers/level1/solution37.md)    | 2022-03-01 | JAVA     |
+| 38  |    [문자열을 정수로 바꾸기](./programmers/level1/solution38.md)    | 2022-03-01 | JAVA     |
+| 39  |          [시저 암호](./programmers/level1/solution39.md)           | 2022-03-01 | JAVA     |
 
 </br>
 </br>
