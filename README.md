@@ -60,6 +60,7 @@ Author: Jung
 | 25  |    [문재열 내 p와 y의 개수](./programmers/level1/solution25.md)    | 2022-02-28 | JAVA     |
 | 26  |          [비밀 지도](./programmers/level1/solution26.md)           | 2022-02-28 | JAVA     |
 | 27  |     [가운데 글자 가져오기](./programmers/level1/solution27.md)     | 2022-02-28 | JAVA     |
+| 28  |       [같은 숫자는 싫어](./programmers/level1/solution28.md)       | 2022-02-28 | JAVA     |
 
 </br>
 </br>
