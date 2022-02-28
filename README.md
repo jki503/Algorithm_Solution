@@ -63,6 +63,7 @@ Author: Jung
 | 28  |       [같은 숫자는 싫어](./programmers/level1/solution28.md)       | 2022-02-28 | JAVA     |
 | 29  |      [두 정수 사이의 합](./programmers/level1/solution29.md)       | 2022-02-28 | JAVA     |
 | 30  |          [다트 게임](./programmers/level1/solution30.md)           | 2022-03-01 | JAVA     |
+| 31  |  [나누어 떨어지는 숫자 배열](./programmers/level1/solution31.md)   | 2022-03-01 | JAVA     |
 
 </br>
 </br>
