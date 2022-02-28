@@ -69,6 +69,7 @@ Author: Jung
 | 34  |      [문자열 다루기 기본](./programmers/level1/solution34.md)      | 2022-03-01 | JAVA     |
 | 35  |     [서울에서 김서방 찾기](./programmers/level1/solution35.md)     | 2022-03-01 | JAVA     |
 | 36  |          [소수 찾기](./programmers/level1/solution36.md)           | 2022-03-01 | JAVA     |
+| 37  |   [수박수박수박수박수박수?](./programmers/level1/solution37.md)    | 2022-03-01 | JAVA     |
 
 </br>
 </br>
