@@ -62,6 +62,7 @@ Author: Jung
 | 27  |     [가운데 글자 가져오기](./programmers/level1/solution27.md)     | 2022-02-28 | JAVA     |
 | 28  |       [같은 숫자는 싫어](./programmers/level1/solution28.md)       | 2022-02-28 | JAVA     |
 | 29  |      [두 정수 사이의 합](./programmers/level1/solution29.md)       | 2022-02-28 | JAVA     |
+| 30  |          [다트 게임](./programmers/level1/solution30.md)           | 2022-03-01 | JAVA     |
 
 </br>
 </br>
