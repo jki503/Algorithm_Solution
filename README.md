@@ -65,6 +65,7 @@ Author: Jung
 | 30  |          [다트 게임](./programmers/level1/solution30.md)           | 2022-03-01 | JAVA     |
 | 31  |  [나누어 떨어지는 숫자 배열](./programmers/level1/solution31.md)   | 2022-03-01 | JAVA     |
 | 32  | [문자열 내 마음대로 정렬하기](./programmers/level1/solution32.md)  | 2022-03-01 | JAVA     |
+| 33  | [문자열 내림차순으로 정렬하기](./programmers/level1/solution33.md) | 2022-03-01 | JAVA     |
 
 </br>
 </br>
