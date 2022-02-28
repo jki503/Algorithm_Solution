@@ -67,6 +67,7 @@ Author: Jung
 | 32  | [문자열 내 마음대로 정렬하기](./programmers/level1/solution32.md)  | 2022-03-01 | JAVA     |
 | 33  | [문자열 내림차순으로 정렬하기](./programmers/level1/solution33.md) | 2022-03-01 | JAVA     |
 | 34  |      [문자열 다루기 기본](./programmers/level1/solution34.md)      | 2022-03-01 | JAVA     |
+| 35  |     [서울에서 김서방 찾기](./programmers/level1/solution35.md)     | 2022-03-01 | JAVA     |
 
 </br>
 </br>
