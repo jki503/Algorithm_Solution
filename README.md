@@ -56,6 +56,7 @@ Author: Jung
 | 21  |            [2016년](./programmers/level1/solution21.md)            | 2022-02-28 | JAVA     |
 | 22  |        [최소 직사각형](./programmers/level1/solution22.md)         | 2022-02-28 | JAVA     |
 | 23  |  [나머지가 1이 되는 수 찾기](./programmers/level1/solution23.md)   | 2022-02-28 | JAVA     |
+| 24  |     [부족한 금액 계산하기](./programmers/level1/solution24.md)     | 2022-02-28 | JAVA     |
 
 </br>
 </br>
