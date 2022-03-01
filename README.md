@@ -73,6 +73,7 @@ Author: Jung
 | 38  |    [문자열을 정수로 바꾸기](./programmers/level1/solution38.md)    | 2022-03-01 | JAVA     |
 | 39  |          [시저 암호](./programmers/level1/solution39.md)           | 2022-03-01 | JAVA     |
 | 40  |          [약수의 합](./programmers/level1/solution40.md)           | 2022-03-01 | JAVA     |
+| 41  |        [자릿수 더하기](./programmers/level1/solution41.md)         | 2022-03-02 | JAVA     |
 
 </br>
 </br>
