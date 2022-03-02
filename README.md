@@ -78,6 +78,8 @@ Author: Jung
 | 43  |  [정수 내림차순으로 배치하기](./programmers/level1/solution43.md)  | 2022-03-02 | JAVA     |
 | 44  |       [정수 제곱근 판별](./programmers/level1/solution44.md)       | 2022-03-02 | JAVA     |
 | 45  |    [제일 작은 수 제거하기](./programmers/level1/solution45.md)     | 2022-03-02 | JAVA     |
+| 46  |         [짝수와 홀수](./programmers/level1/solution46.md)          | 2022-03-02 | JAVA     |
+| 47  |   [최대공약수와 최소공배수](./programmers/level1/solution47.md)    | 2022-03-02 | JAVA     |
 
 </br>
 </br>
