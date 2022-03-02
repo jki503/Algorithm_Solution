@@ -74,6 +74,7 @@ Author: Jung
 | 39  |          [시저 암호](./programmers/level1/solution39.md)           | 2022-03-01 | JAVA     |
 | 40  |          [약수의 합](./programmers/level1/solution40.md)           | 2022-03-01 | JAVA     |
 | 41  |        [자릿수 더하기](./programmers/level1/solution41.md)         | 2022-03-02 | JAVA     |
+| 42  | [자연수 뒤집어 배열로 만들기](./programmers/level1/solution42.md)  | 2022-03-02 | JAVA     |
 
 </br>
 </br>
