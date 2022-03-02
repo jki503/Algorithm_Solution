@@ -83,6 +83,11 @@ Author: Jung
 | 48  |         [콜라츠 추측](./programmers/level1/solution48.md)          | 2022-03-02 | JAVA     |
 | 49  |         [평균 구하기](./programmers/level1/solution49.md)          | 2022-03-02 | JAVA     |
 | 50  |          [하샤드 수](./programmers/level1/solution50.md)           | 2022-03-02 | JAVA     |
+| 51  |      [핸드폰 번호 가리기](./programmers/level1/solution51.md)      | 2022-03-02 | JAVA     |
+| 52  |         [행렬의 덧셈](./programmers/level1/solution52.md)          | 2022-03-02 | JAVA     |
+| 53  | [x만큼 간격이 있는 n개의 숫자](./programmers/level1/solution53.md) | 2022-03-02 | JAVA     |
+| 54  |       [직사각형 별찍기](./programmers/level1/solution54.md)        | 2022-03-02 | JAVA     |
+| 55  |      [이상한 문자 만들기](./programmers/level1/solution55.md)      | 2022-03-02 | JAVA     |
 
 </br>
 </br>
