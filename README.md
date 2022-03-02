@@ -76,6 +76,7 @@ Author: Jung
 | 41  |        [자릿수 더하기](./programmers/level1/solution41.md)         | 2022-03-02 | JAVA     |
 | 42  | [자연수 뒤집어 배열로 만들기](./programmers/level1/solution42.md)  | 2022-03-02 | JAVA     |
 | 43  |  [정수 내림차순으로 배치하기](./programmers/level1/solution43.md)  | 2022-03-02 | JAVA     |
+| 44  |       [정수 제곱근 판별](./programmers/level1/solution44.md)       | 2022-03-02 | JAVA     |
 
 </br>
 </br>
