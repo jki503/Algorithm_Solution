@@ -81,6 +81,8 @@ Author: Jung
 | 46  |         [짝수와 홀수](./programmers/level1/solution46.md)          | 2022-03-02 | JAVA     |
 | 47  |   [최대공약수와 최소공배수](./programmers/level1/solution47.md)    | 2022-03-02 | JAVA     |
 | 48  |         [콜라츠 추측](./programmers/level1/solution48.md)          | 2022-03-02 | JAVA     |
+| 49  |         [평균 구하기](./programmers/level1/solution49.md)          | 2022-03-02 | JAVA     |
+| 50  |          [하샤드 수](./programmers/level1/solution50.md)           | 2022-03-02 | JAVA     |
 
 </br>
 </br>
