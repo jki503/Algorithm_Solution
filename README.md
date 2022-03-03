@@ -154,6 +154,7 @@ Author: Jung
 | 54  |        [올바른 괄호](./programmers/level2/solution54.md)         | 2022-02-24 |   JAVA   |
 | 55  |   [가장 큰 정사각형 찾기](./programmers/level2/solution55.md)    | 2022-02-25 |   JAVA   |
 | 56  |      [빛의 경로 사이클](./programmers/level2/solution56.md)      | 2022-02-28 |   JAVA   |
+| 57  |          [조이스틱](./programmers/level2/solution57.md)          | 2022-03-03 |   JAVA   |
 
 </br>
 </br>
