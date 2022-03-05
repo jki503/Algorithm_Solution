@@ -156,6 +156,7 @@ Author: Jung
 | 56  |      [빛의 경로 사이클](./programmers/level2/solution56.md)      | 2022-02-28 |   JAVA   |
 | 57  |          [조이스틱](./programmers/level2/solution57.md)          | 2022-03-03 |   JAVA   |
 | 58  |           [후보키](./programmers/level2/solution58.md)           | 2022-03-04 |   JAVA   |
+| 59  |         [양궁 대회](./programmers/level2/solution59.md)          | 2022-03-05 |   JAVA   |
 
 </br>
 </br>
