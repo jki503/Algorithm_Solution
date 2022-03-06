@@ -208,13 +208,14 @@ Author: Jung
 
 ## 백준
 
-|  No.  |                       Name                       |    Date    | Language |
-| :---: | :----------------------------------------------: | :--------: | :------: |
-| 4949  | [균형잡힌 세상](./baekjoon/class2/solution01.md) | 2022-01-30 |   JAVA   |
-| 7568  |     [덩치](./baekjoon/class2/solution02.md)      | 2022-02-03 |   JAVA   |
-| 9012  |     [괄호](./baekjoon/class2/solution03.md)      | 2022-02-03 |   JAVA   |
-| 10250 |   [ACM 호텔](./baekjoon/class2/solution04.md)    | 2022-02-03 |   JAVA   |
-| 10773 |     [제로](./baekjoon/class2/solution05.md)      | 2022-02-03 |   JAVA   |
+| No. |                             Name                             |    Date    | Language |
+| :-: | :----------------------------------------------------------: | :--------: | :------: |
+|  1  |    [균형잡힌 세상(4949)](./baekjoon/class2/solution01.md)    | 2022-01-30 |   JAVA   |
+|  2  |        [덩치(7568)](./baekjoon/class2/solution02.md)         | 2022-02-03 |   JAVA   |
+|  3  |        [괄호(9012)](./baekjoon/class2/solution03.md)         | 2022-02-03 |   JAVA   |
+|  4  |      [ACM 호텔(10250)](./baekjoon/class2/solution04.md)      | 2022-02-03 |   JAVA   |
+|  5  |        [제로(10773)](./baekjoon/class2/solution05.md)        | 2022-02-03 |   JAVA   |
+|  6  | [체스판 다시 칠하기(1018))](./baekjoon/class2/solution06.md) | 2022-03-07 |   JAVA   |
 
 </br>
 </br>
