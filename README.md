@@ -183,7 +183,7 @@ Author: Jung
 | 16  |      [셔틀 버스](./programmers/level3/solution16.md)      | 2022-02-16 |   JAVA   |
 | 17  |       [표 편집](./programmers/level3/solution17.md)       | 2022-02-16 |   JAVA   |
 | 18  | [파괴 되지 않은 건물](./programmers/level3/solution18.md) | 2022-02-16 |   JAVA   |
-| 19  |  [징검 다리 건너기](./programmers/level3/solution19.md)   | 2022-02-16 |   JAVA   |
+| 19  |   [징검다리 건너기](./programmers/level3/solution19.md)   | 2022-02-16 |   JAVA   |
 | 20  |     [아이템 줍기](./programmers/level3/solution20.md)     | 2022-02-16 |   JAVA   |
 | 21  |       [N-Queen](./programmers/level3/solution21.md)       | 2022-02-16 |   JAVA   |
 | 22  |    [풍선 터트리기](./programmers/level3/solution22.md)    | 2022-02-17 |   JAVA   |
@@ -201,6 +201,7 @@ Author: Jung
 | 34  |     [N으로 표현](./programmers/level3/solution34.md)      | 2022-03-04 |   JAVA   |
 | 35  |      [보석 쇼핑](./programmers/level3/solution35.md)      | 2022-03-06 |   JAVA   |
 | 36  |     [정수 삼각형](./programmers/level3/solution36.md)     | 2022-03-06 |   JAVA   |
+| 37  |      [멀리 뛰기](./programmers/level3/solution37.md)      | 2022-03-06 |   JAVA   |
 
 </br>
 </br>
