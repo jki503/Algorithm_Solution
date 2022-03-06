@@ -200,6 +200,7 @@ Author: Jung
 | 33  |     [베스트 앨범](./programmers/level3/solution33.md)     | 2022-02-27 |   JAVA   |
 | 34  |     [N으로 표현](./programmers/level3/solution34.md)      | 2022-03-04 |   JAVA   |
 | 35  |      [보석 쇼핑](./programmers/level3/solution35.md)      | 2022-03-06 |   JAVA   |
+| 36  |     [정수 삼각형](./programmers/level3/solution36.md)     | 2022-03-06 |   JAVA   |
 
 </br>
 </br>
