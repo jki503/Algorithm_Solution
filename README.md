@@ -216,6 +216,7 @@ Author: Jung
 |  4  |      [ACM 호텔(10250)](./baekjoon/class2/solution04.md)      | 2022-02-03 |   JAVA   |
 |  5  |        [제로(10773)](./baekjoon/class2/solution05.md)        | 2022-02-03 |   JAVA   |
 |  6  | [체스판 다시 칠하기(1018))](./baekjoon/class2/solution06.md) | 2022-03-07 |   JAVA   |
+|  7  |  [직사각형에서 탈출(1085)](./baekjoon/class2/solution07.md)  | 2022-03-07 |   JAVA   |
 
 </br>
 </br>
