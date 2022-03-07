@@ -10,91 +10,63 @@ import java.util.ArrayList;
 import java.util.List;
 
 class Solution {
-    int mul = 65536;
+    private static final int mul = 65536;
 
     public int solution(String str1, String str2) {
-        int answer = 0;
-
 
         List<String> list1 = new ArrayList<>();
         List<String> list2 = new ArrayList<>();
 
         // 집합 원소 넣기
-        insertSet(list1, str1);
-        insertSet(list2, str2);
+        setList(list1, str1);
+        setList(list2, str2);
 
-        // 자카드 유사도 계산
-        answer = calc(list1,list2);
+        int n1 = list1.size();
+        int n2 = list2.size();
 
-        return answer;
+        int cnt = 0;
+
+        if(n1 == 0 && n2 == 0)
+            return mul; // 자카드 정의 X
+        else if(n1 != 0 && n2 !=0){
+
+            for(String value : list1){
+                if(list2.contains(value)){
+                    list2.remove(value);
+                    cnt++;
+                }
+            }
+        }
+        else
+            return 0;
+
+        return (mul * cnt) / (n1 + n2 - cnt);
     }
 
-    public boolean checkAlpha(char c){
-        if((c >= 'a' && c<='z')
-           ||(c >= 'A' && c<='Z'))
-                return true;
-
-        return false;
-    }
-
-    // list에 각 집합의 원소 넣기
-    public void insertSet(List<String> list, String s){
+    // list 설정
+    private void setList(List<String> list, String s){
         StringBuilder sb;
 
         for(int i = 0;i < s.length() - 1;i++){
             sb = new StringBuilder();
 
-            char first = s.charAt(i);
-            char second = s.charAt(i+1);
+            // 대문자 변환
+            char first = Character.toUpperCase(s.charAt(i));
+            char second = Character.toUpperCase(s.charAt(i+1));
 
             // 알파벳이 아닐 경우 버리기
             if(!checkAlpha(first) || !checkAlpha(second))
                 continue;
 
-            // 각문자 대문자로 변경후 add
-            list.add(sb
-                     .append(Character.toUpperCase(first))
-                     .append(Character.toUpperCase(second))
-                     .toString());
+            list.add(sb.append(first).append(second).toString());
         }
     }
 
-    public int calc(List<String> list1, List<String> list2){
-        int size1 = list1.size();
-        int size2 = list2.size();
+    private boolean checkAlpha(char c){
+        if(c >= 'A' && c<='Z')
+            return true;
 
-        System.out.println(size1);
-        System.out.println(size2);
-
-        int count=0;
-
-        if(size1 == 0){
-            // 공집합
-            if(size2 == 0){
-                return mul*1;
-            }
-            else{
-                return 0;
-            }
-        }
-        else{
-            if(size2 == 0){
-                return 0;
-            }
-            else{
-                for(String atom: list1){
-                    // 교집합 개수
-                    if(list2.contains(atom)){
-
-                        // 추가되는 다중집합 검색 피하기
-                        list2.remove(atom);
-                        count++;
-                    }
-                }
-            }
-        }
-
-        return  (mul * count) / (size1 + size2 - count);
+        return false;
     }
 }
 
