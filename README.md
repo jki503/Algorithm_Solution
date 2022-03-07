@@ -218,6 +218,7 @@ Author: Jung
 |  6  | [체스판 다시 칠하기(1018))](./baekjoon/class2/solution06.md) | 2022-03-07 |   JAVA   |
 |  7  |  [직사각형에서 탈출(1085)](./baekjoon/class2/solution07.md)  | 2022-03-07 |   JAVA   |
 |  8  |      [단어 정렬(1181)](./baekjoon/class2/solution08.md)      | 2022-03-07 |   JAVA   |
+|  9  |     [팰린드롬수(1259)](./baekjoon/class2/solution09.md)      | 2022-03-07 |   JAVA   |
 
 </br>
 </br>
