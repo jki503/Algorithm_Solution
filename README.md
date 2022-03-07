@@ -222,6 +222,7 @@ Author: Jung
 | 10  |    [랜선 자르기(1654)](./baekjoon/class2/solution10.md)     | 2022-03-07 |   JAVA   |
 | 11  |     [스택 수열(1874)](./baekjoon/class2/solution11.md)      | 2022-03-07 |   JAVA   |
 | 12  |      [수 찾기(1920)](./baekjoon/class2/solution12.md)       | 2022-03-07 |   JAVA   |
+| 13  |    [소수 구하기(1929)](./baekjoon/class2/solution13.md)     | 2022-03-07 |   JAVA   |
 
 </br>
 </br>
