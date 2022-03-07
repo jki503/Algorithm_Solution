@@ -208,19 +208,20 @@ Author: Jung
 
 ## 백준
 
-| No. |                             Name                             |    Date    | Language |
-| :-: | :----------------------------------------------------------: | :--------: | :------: |
-|  1  |    [균형잡힌 세상(4949)](./baekjoon/class2/solution01.md)    | 2022-01-30 |   JAVA   |
-|  2  |        [덩치(7568)](./baekjoon/class2/solution02.md)         | 2022-02-03 |   JAVA   |
-|  3  |        [괄호(9012)](./baekjoon/class2/solution03.md)         | 2022-02-03 |   JAVA   |
-|  4  |      [ACM 호텔(10250)](./baekjoon/class2/solution04.md)      | 2022-02-03 |   JAVA   |
-|  5  |        [제로(10773)](./baekjoon/class2/solution05.md)        | 2022-02-03 |   JAVA   |
-|  6  | [체스판 다시 칠하기(1018))](./baekjoon/class2/solution06.md) | 2022-03-07 |   JAVA   |
-|  7  |  [직사각형에서 탈출(1085)](./baekjoon/class2/solution07.md)  | 2022-03-07 |   JAVA   |
-|  8  |      [단어 정렬(1181)](./baekjoon/class2/solution08.md)      | 2022-03-07 |   JAVA   |
-|  9  |     [팰린드롬수(1259)](./baekjoon/class2/solution09.md)      | 2022-03-07 |   JAVA   |
-| 10  |     [랜선 자르기(1654)](./baekjoon/class2/solution10.md)     | 2022-03-07 |   JAVA   |
-| 11  |      [스택 수열(1874)](./baekjoon/class2/solution11.md)      | 2022-03-07 |   JAVA   |
+| No. |                            Name                             |    Date    | Language |
+| :-: | :---------------------------------------------------------: | :--------: | :------: |
+|  1  |   [균형잡힌 세상(4949)](./baekjoon/class2/solution01.md)    | 2022-01-30 |   JAVA   |
+|  2  |        [덩치(7568)](./baekjoon/class2/solution02.md)        | 2022-02-03 |   JAVA   |
+|  3  |        [괄호(9012)](./baekjoon/class2/solution03.md)        | 2022-02-03 |   JAVA   |
+|  4  |     [ACM 호텔(10250)](./baekjoon/class2/solution04.md)      | 2022-02-03 |   JAVA   |
+|  5  |       [제로(10773)](./baekjoon/class2/solution05.md)        | 2022-02-03 |   JAVA   |
+|  6  | [체스판 다시 칠하기(1018)](./baekjoon/class2/solution06.md) | 2022-03-07 |   JAVA   |
+|  7  | [직사각형에서 탈출(1085)](./baekjoon/class2/solution07.md)  | 2022-03-07 |   JAVA   |
+|  8  |     [단어 정렬(1181)](./baekjoon/class2/solution08.md)      | 2022-03-07 |   JAVA   |
+|  9  |     [팰린드롬수(1259)](./baekjoon/class2/solution09.md)     | 2022-03-07 |   JAVA   |
+| 10  |    [랜선 자르기(1654)](./baekjoon/class2/solution10.md)     | 2022-03-07 |   JAVA   |
+| 11  |     [스택 수열(1874)](./baekjoon/class2/solution11.md)      | 2022-03-07 |   JAVA   |
+| 12  |      [수 찾기(1920)](./baekjoon/class2/solution12.md)       | 2022-03-07 |   JAVA   |
 
 </br>
 </br>
