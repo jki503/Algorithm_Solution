@@ -233,6 +233,10 @@ Author: Jung
 | No. |                                     Name                                      |    Date    | Language |
 | :-: | :---------------------------------------------------------------------------: | :--------: | :------: |
 |  1  |                    [1. Two Sum](./leetcode/solution01.md)                     | 2022-03-08 |   JAVA   |
-|  2  |          [2. Median of Two Sorted Arrays](./leetcode/solution02.md)           | 2022-03-08 |   JAVA   |
+|  2  |                [2. Add Two Numbers](./leetcode/solution02.md)                 | 2022-03-08 |   JAVA   |
 |  3  | [3. Longest Substring Without Repeating Characters](./leetcode/solution03.md) | 2022-03-08 |   JAVA   |
 |  4  |          [4. Median of Two Sorted Arrays](./leetcode/solution04.md)           | 2022-03-08 |   JAVA   |
+|  5  |         [5. Longest Palindromic Substring](./leetcode/solution05.md)          | 2022-03-08 |   JAVA   |
+|  6  |               [6. Zigzag Conversion](./leetcode/solution06.md)                | 2022-03-08 |   JAVA   |
+|  7  |                [7. Reverse Integer](./leetcode/solution07.md)                 | 2022-03-08 |   JAVA   |
+|  8  |            [8. String to Integer(atoi)](./leetcode/solution08.md)             | 2022-03-08 |   JAVA   |
