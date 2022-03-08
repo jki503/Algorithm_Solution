@@ -1,38 +1,39 @@
-# leetCode 4. Median of Two Sorted Arrays
+# leetcode 1. Two Sum
 
-- [문제 링크](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+- [문제 링크](https://leetcode.com/problems/two-sum/)
 
 </br>
 
 ```java
 
+import java.util.Map;
+import java.util.HashMap;
+
+
 class Solution {
-    public double findMedianSortedArrays(int[] nums1, int[] nums2) {
+    public int[] twoSum(int[] nums, int target) {
 
-        int m = nums1.length;
-        int n = nums2.length;
-        int len = m+n;
+        int[] result = new int[2];
 
-        int[] arr = new int[len];
+        Map<Integer,Integer> idxMap = new HashMap<>();
 
-        int i=0;
-        int j=0; // nums1 index
-        int k=0; // nums2 index
+        for(int i=0; i < nums.length; i++){
 
-        while(j<m && k<n)
-            arr[i++] = nums1[j] < nums2[k] ? nums1[j++] : nums2[k++];
+            int need = target - nums[i];
 
-        while(j<m)
-            arr[i++] = nums1[j++];
+            // find need
+            if(idxMap.containsKey(need)){
+                result[0] = i;
+                result[1] = idxMap.get(need);
+                break;
+            }
 
-        while(k<n)
-            arr[i++] = nums2[k++];
+            idxMap.put(nums[i],i);
 
-        if(len % 2 ==0)
-            return (double)(arr[len/2 - 1] + arr[len/2]) / 2.0;
-        else
-            return (double)arr[len/2];
+        }
 
+
+        return result;
     }
 }
 

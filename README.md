@@ -230,6 +230,9 @@ Author: Jung
 
 ## **LeetCode**
 
-| No. |                            Name                            |    Date    | Language |
-| :-: | :--------------------------------------------------------: | :--------: | :------: |
-|  1  | [4. Median of Two Sorted Arrays](./leetcode/solution01.md) | 2022-03-08 |   JAVA   |
+| No. |                                     Name                                      |    Date    | Language |
+| :-: | :---------------------------------------------------------------------------: | :--------: | :------: |
+|  1  |                    [1. Two Sum](./leetcode/solution01.md)                     | 2022-03-08 |   JAVA   |
+|  2  |          [2. Median of Two Sorted Arrays](./leetcode/solution02.md)           | 2022-03-08 |   JAVA   |
+|  3  | [3. Longest Substring Without Repeating Characters](./leetcode/solution03.md) | 2022-03-08 |   JAVA   |
+|  4  |          [4. Median of Two Sorted Arrays](./leetcode/solution04.md)           | 2022-03-08 |   JAVA   |
