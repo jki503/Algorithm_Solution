@@ -240,3 +240,4 @@ Author: Jung
 |  6  |               [6. Zigzag Conversion](./leetcode/solution06.md)                | 2022-03-08 |   JAVA   |
 |  7  |                [7. Reverse Integer](./leetcode/solution07.md)                 | 2022-03-08 |   JAVA   |
 |  8  |            [8. String to Integer(atoi)](./leetcode/solution08.md)             | 2022-03-08 |   JAVA   |
+|  9  |               [9. Palindrome Number](./leetcode/solution09.md)                | 2022-03-08 |   JAVA   |
