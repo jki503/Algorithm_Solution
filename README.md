@@ -248,3 +248,4 @@ Author: Jung
 | 14  |             [14. Longest Common Prefix](./leetcode/solution14.md)             | 2022-03-10 |   JAVA   |
 | 15  |                     [15. 3Sum](./leetcode/solution15.md)                      | 2022-03-11 |   JAVA   |
 | 16  |                 [16. 3Sum Closest](./leetcode/solution16.md)                  | 2022-03-11 |   JAVA   |
+| 17  |     [17. Letter Combinations of a Phone Number](./leetcode/solution17.md)     | 2022-03-11 |   JAVA   |
