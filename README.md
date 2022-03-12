@@ -249,3 +249,5 @@ Author: Jung
 | 14  |                 [16. 3Sum Closest](./leetcode/solution14.md)                  | 2022-03-11 |   JAVA   |
 | 15  |     [17. Letter Combinations of a Phone Number](./leetcode/solution15.md)     | 2022-03-11 |   JAVA   |
 | 16  |        [33. Search in Rotated Sorted Array](./leetcode/solution16.md)         | 2022-03-12 |   JAVA   |
+| 17  |       [215. Kth Largest Element in an Array](./leetcode/solution17.md)        | 2022-03-12 |   JAVA   |
+| 18  |      [387. First Unique Character in a String](./leetcode/solution18.md)      | 2022-03-12 |   JAVA   |
