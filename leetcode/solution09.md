@@ -1,23 +1,34 @@
-# leetcode 9. Palindrome Number
+# leetcode 11. Container With Most Water
 
-- [문제 링크](https://leetcode.com/problems/palindrome-number/)
+- [문제 링크](https://leetcode.com/problems/container-with-most-water/)
 
 </br>
 
 ```java
 
 class Solution {
-    public boolean isPalindrome(int x) {
+    public int maxArea(int[] height) {
 
-        char[] arr = Integer.toString(x).toCharArray();
-        int n = arr.length;
+        int l = 0;
+        int r = height.length - 1;
+        int area = 0;
 
-        for(int i=0; i < n/2;i++){
-            if(arr[i] != arr[n-1-i])
-                return false;
+
+        while(l < r ){
+
+            int wid = r - l;
+            int hei = height[l] < height[r] ? height[l] : height[r];
+
+            area = Math.max(hei*wid, area);
+
+            if(height[l] < height[r])
+                l++;
+            else
+                r--;
         }
 
-        return true;
+        return area;
+
     }
 }
 

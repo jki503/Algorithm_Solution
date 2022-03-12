@@ -1,48 +1,53 @@
-# leetcode 13. Roman to Integer
+# leetcode 15. 3sum
 
-- [문제 링크](https://leetcode.com/problems/roman-to-integer/)
+- [문제 링크](https://leetcode.com/problems/3sum/submissions/)
 
 </br>
 
 ```java
 
-import java.util.Map;
-import java.util.HashMap;
+import java.util.Arrays;
+
+import java.util.ArrayList;
 
 class Solution {
-    public int romanToInt(String s) {
+    public List<List<Integer>> threeSum(int[] nums) {
 
-        int num=0;
+        List<List<Integer>> list = new ArrayList<>();
 
-        Map<Character,Integer> rMap = new HashMap<>(){{
-            put('I',1);
-            put('V',5);
-            put('X',10);
-            put('L',50);
-            put('C',100);
-            put('D',500);
-            put('M',1000);
-        }};
+        Arrays.sort(nums);
 
-        int n = s.length();
+        int n = nums.length;
 
-        for(int i=0;i<n-1;i++){
+        for(int i = 0 ; i < n-2 ; i++){
 
-            int curr = rMap.get(s.charAt(i));
-            int next = rMap.get(s.charAt(i+1));
+            // 중복 제거
+            if(i > 0 && nums[i-1] == nums[i])
+                continue;
 
-            // check 9 90 900 4 40 400
-            if(curr >= next){
-                num+=curr;
+            int l = i + 1;
+            int r = n - 1;
+
+            while( l< r){
+
+                int sum = nums[i] + nums[l] + nums[r];
+
+                if(sum == 0){
+
+                    list.add(Arrays.asList(nums[i], nums[l], nums[r]));
+                    l++;
+                    r--;
+                    while(l < r && nums[l-1] == nums[l]) l++;
+                    while(l < r && nums[r+1] == nums[r]) r--;
+                }
+                else if(sum > 0) r--;
+                else l++;
             }
-            else
-                num-=curr;
 
         }
 
-        num += rMap.get(s.charAt(n-1));
 
-        return num;
+        return list;
     }
 }
 

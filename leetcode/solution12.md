@@ -1,32 +1,32 @@
-# leetcode 12. Integer to Roman
+# leetcode 14. Longest Common Prefix
 
-- [문제 링크](https://leetcode.com/problems/integer-to-roman/)
+- [문제 링크](https://leetcode.com/problems/longest-common-prefix/)
 
 </br>
 
 ```java
 
+import java.util.Arrays;
+
 class Solution {
-
-    private static final int arr[] = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};
-    private static final String[] romans = {"M","CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I"};
-
-    public String intToRoman(int num) {
+    public String longestCommonPrefix(String[] strs) {
 
         StringBuilder sb = new StringBuilder();
 
-        int i=0;
+        Arrays.sort(strs);
 
-        while(num !=0 ){
+        String str1 = strs[0];
+        String str2 = strs[strs.length-1];
 
-            if(num >= arr[i]){
-                num -= arr[i];
-                sb.append(romans[i]);
-            }
+        for(int i=0; i < str1.length(); i++){
+
+            char c = str1.charAt(i);
+
+            if( c == str2.charAt(i))
+                sb.append(c);
             else
-                i++;
+                break;
         }
-
 
         return sb.toString();
     }

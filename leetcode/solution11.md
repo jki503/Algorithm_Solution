@@ -1,34 +1,48 @@
-# leetcode 11. Container With Most Water
+# leetcode 13. Roman to Integer
 
-- [문제 링크](https://leetcode.com/problems/container-with-most-water/)
+- [문제 링크](https://leetcode.com/problems/roman-to-integer/)
 
 </br>
 
 ```java
 
+import java.util.Map;
+import java.util.HashMap;
+
 class Solution {
-    public int maxArea(int[] height) {
+    public int romanToInt(String s) {
 
-        int l = 0;
-        int r = height.length - 1;
-        int area = 0;
+        int num=0;
 
+        Map<Character,Integer> rMap = new HashMap<>(){{
+            put('I',1);
+            put('V',5);
+            put('X',10);
+            put('L',50);
+            put('C',100);
+            put('D',500);
+            put('M',1000);
+        }};
 
-        while(l < r ){
+        int n = s.length();
 
-            int wid = r - l;
-            int hei = height[l] < height[r] ? height[l] : height[r];
+        for(int i=0;i<n-1;i++){
 
-            area = Math.max(hei*wid, area);
+            int curr = rMap.get(s.charAt(i));
+            int next = rMap.get(s.charAt(i+1));
 
-            if(height[l] < height[r])
-                l++;
+            // check 9 90 900 4 40 400
+            if(curr >= next){
+                num+=curr;
+            }
             else
-                r--;
+                num-=curr;
+
         }
 
-        return area;
+        num += rMap.get(s.charAt(n-1));
 
+        return num;
     }
 }
 

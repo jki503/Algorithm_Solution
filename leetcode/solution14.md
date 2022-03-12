@@ -1,6 +1,6 @@
-# leetcode 14. Longest Common Prefix
+# leetcode 16. 16. 3Sum Closest
 
-- [문제 링크](https://leetcode.com/problems/longest-common-prefix/)
+- [문제 링크](https://leetcode.com/problems/3sum-closest/)
 
 </br>
 
@@ -8,27 +8,47 @@
 
 import java.util.Arrays;
 
+
 class Solution {
-    public String longestCommonPrefix(String[] strs) {
+    public int threeSumClosest(int[] nums, int target) {
 
-        StringBuilder sb = new StringBuilder();
+        int result = 0;
+        int min = Integer.MAX_VALUE;
 
-        Arrays.sort(strs);
+        Arrays.sort(nums);
 
-        String str1 = strs[0];
-        String str2 = strs[strs.length-1];
+        int n = nums.length;
 
-        for(int i=0; i < str1.length(); i++){
+        for(int i=0; i < n-2;i++){
 
-            char c = str1.charAt(i);
+            int l = i+1;
+            int r = n-1;
 
-            if( c == str2.charAt(i))
-                sb.append(c);
-            else
-                break;
+            while(l < r){
+
+                int sum = nums[i] + nums[l] + nums[r];
+
+                int diff = target - sum;
+                int absDiff =  diff < 0 ? -diff : diff;
+
+                if(absDiff < min){
+                    min = absDiff;
+                    result = sum;
+                }
+
+                if(absDiff == 0)
+                    return result;
+
+                if(diff > 0 )
+                    l++;
+                else
+                    r--;
+
+            }
+
         }
 
-        return sb.toString();
+        return result;
     }
 }
 

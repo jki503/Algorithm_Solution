@@ -1,34 +1,23 @@
-# leetcode 7. Reverse Integer
+# leetcode 9. Palindrome Number
 
-- [문제 링크](https://leetcode.com/problems/reverse-integer/)
+- [문제 링크](https://leetcode.com/problems/palindrome-number/)
 
 </br>
 
 ```java
 
 class Solution {
-    public int reverse(int x) {
+    public boolean isPalindrome(int x) {
 
-        boolean checkSign = x < 0 ? false : true;
-        // converting sign
-        if(!checkSign)
-            x*= -1;
+        char[] arr = Integer.toString(x).toCharArray();
+        int n = arr.length;
 
-        int result = 0;
-
-        while(x!=0){
-            if(result > Integer.MAX_VALUE / 10 || result < Integer.MIN_VALUE / 10)
-                return 0;
-
-            result = 10*result + x%10;
-            x/=10;
+        for(int i=0; i < n/2;i++){
+            if(arr[i] != arr[n-1-i])
+                return false;
         }
 
-        //converting sing
-        if(!checkSign)
-            result*= -1;
-
-        return result;
+        return true;
     }
 }
 

@@ -1,53 +1,40 @@
-# leetcode 15. 3sum
+# leetcode 17. Letter Combinations of a Phone Number
 
-- [문제 링크](https://leetcode.com/problems/3sum/submissions/)
+- [문제 링크](https://leetcode.com/problems/letter-combinations-of-a-phone-number/)
 
 </br>
 
 ```java
 
-import java.util.Arrays;
-
 import java.util.ArrayList;
 
 class Solution {
-    public List<List<Integer>> threeSum(int[] nums) {
 
-        List<List<Integer>> list = new ArrayList<>();
+    List<String> result = new ArrayList<>();
+    String[] keyPads = {"","abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
 
-        Arrays.sort(nums);
+    public List<String> letterCombinations(String digits) {
 
-        int n = nums.length;
+        if(digits.length() == 0)
+            return result;
 
-        for(int i = 0 ; i < n-2 ; i++){
+        backTracking(new StringBuilder(), digits, 0);
+        return result;
+    }
 
-            // 중복 제거
-            if(i > 0 && nums[i-1] == nums[i])
-                continue;
+    private void backTracking(StringBuilder sb, String digits, int idx){
 
-            int l = i + 1;
-            int r = n - 1;
-
-            while( l< r){
-
-                int sum = nums[i] + nums[l] + nums[r];
-
-                if(sum == 0){
-
-                    list.add(Arrays.asList(nums[i], nums[l], nums[r]));
-                    l++;
-                    r--;
-                    while(l < r && nums[l-1] == nums[l]) l++;
-                    while(l < r && nums[r+1] == nums[r]) r--;
-                }
-                else if(sum > 0) r--;
-                else l++;
-            }
-
+        if(sb.length() == digits.length()){
+            result.add(sb.toString());
+            return;
         }
 
+        String s = keyPads[ (digits.charAt(idx) - '1')];
 
-        return list;
+        for(int i=0;i<s.length();i++){
+            backTracking(sb.append(s.charAt(i)),digits,idx+1);
+            sb.setLength(sb.length()-1);
+        }
     }
 }
 

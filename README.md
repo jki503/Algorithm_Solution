@@ -237,16 +237,15 @@ Author: Jung
 |  2  |                [2. Add Two Numbers](./leetcode/solution02.md)                 | 2022-03-08 |   JAVA   |
 |  3  | [3. Longest Substring Without Repeating Characters](./leetcode/solution03.md) | 2022-03-08 |   JAVA   |
 |  4  |          [4. Median of Two Sorted Arrays](./leetcode/solution04.md)           | 2022-03-08 |   JAVA   |
-|  5  |         [5. Longest Palindromic Substring](./leetcode/solution05.md)          | 2022-03-08 |   JAVA   |
-|  6  |               [6. Zigzag Conversion](./leetcode/solution06.md)                | 2022-03-08 |   JAVA   |
-|  7  |                [7. Reverse Integer](./leetcode/solution07.md)                 | 2022-03-08 |   JAVA   |
-|  8  |            [8. String to Integer(atoi)](./leetcode/solution08.md)             | 2022-03-09 |   JAVA   |
-|  9  |               [9. Palindrome Number](./leetcode/solution09.md)                | 2022-03-08 |   JAVA   |
-| 10  |          [10. Regular Expression Matching](./leetcode/solution10.md)          | 2022-03-09 |   JAVA   |
-| 11  |           [11. Container With Most Water](./leetcode/solution11.md)           | 2022-03-09 |   JAVA   |
-| 12  |               [12. Integer to Roman](./leetcode/solution12.md)                | 2022-03-09 |   JAVA   |
-| 13  |               [13. Roman to Integer](./leetcode/solution13.md)                | 2022-03-10 |   JAVA   |
-| 14  |             [14. Longest Common Prefix](./leetcode/solution14.md)             | 2022-03-10 |   JAVA   |
-| 15  |                     [15. 3Sum](./leetcode/solution15.md)                      | 2022-03-11 |   JAVA   |
-| 16  |                 [16. 3Sum Closest](./leetcode/solution16.md)                  | 2022-03-11 |   JAVA   |
-| 17  |     [17. Letter Combinations of a Phone Number](./leetcode/solution17.md)     | 2022-03-11 |   JAVA   |
+|  5  |                [7. Reverse Integer](./leetcode/solution05.md)                 | 2022-03-08 |   JAVA   |
+|  6  |            [8. String to Integer(atoi)](./leetcode/solution06.md)             | 2022-03-09 |   JAVA   |
+|  7  |               [9. Palindrome Number](./leetcode/solution07.md)                | 2022-03-08 |   JAVA   |
+|  8  |          [10. Regular Expression Matching](./leetcode/solution08.md)          | 2022-03-09 |   JAVA   |
+|  9  |           [11. Container With Most Water](./leetcode/solution09.md)           | 2022-03-09 |   JAVA   |
+| 10  |               [12. Integer to Roman](./leetcode/solution10.md)                | 2022-03-09 |   JAVA   |
+| 11  |               [13. Roman to Integer](./leetcode/solution11.md)                | 2022-03-10 |   JAVA   |
+| 12  |             [14. Longest Common Prefix](./leetcode/solution12.md)             | 2022-03-10 |   JAVA   |
+| 13  |                     [15. 3Sum](./leetcode/solution13.md)                      | 2022-03-11 |   JAVA   |
+| 14  |                 [16. 3Sum Closest](./leetcode/solution14.md)                  | 2022-03-11 |   JAVA   |
+| 15  |     [17. Letter Combinations of a Phone Number](./leetcode/solution15.md)     | 2022-03-11 |   JAVA   |
+| 16  |        [33. Search in Rotated Sorted Array](./leetcode/solution16.md)         | 2022-03-12 |   JAVA   |
