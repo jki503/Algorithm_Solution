@@ -253,3 +253,4 @@ Author: Jung
 | 18  |      [387. First Unique Character in a String](./leetcode/solution18.md)      | 2022-03-12 |   JAVA   |
 | 19  |         [451. Sort Characters By Frequency](./leetcode/solution19.md)         | 2022-03-12 |   JAVA   |
 | 20  |                [179. Largest Number](./leetcode/solution20.md)                | 2022-03-12 |   JAVA   |
+| 21  |                 [134. Gas Station](./leetcode/solution21.md)                  | 2022-03-12 |   JAVA   |
