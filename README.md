@@ -202,7 +202,7 @@ Author: Jung
 | 35  |      [보석 쇼핑](./programmers/level3/solution35.md)      | 2022-03-06 |   JAVA   |
 | 36  |     [정수 삼각형](./programmers/level3/solution36.md)     | 2022-03-06 |   JAVA   |
 | 37  |      [멀리 뛰기](./programmers/level3/solution37.md)      | 2022-03-06 |   JAVA   |
-| 378 |      [입국심사](./programmers/level3/solution38.md)       | 2022-03-12 |   JAVA   |
+| 38  |      [입국심사](./programmers/level3/solution38.md)       | 2022-03-12 |   JAVA   |
 
 </br>
 </br>
