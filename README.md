@@ -257,3 +257,4 @@ Author: Jung
 | 22  |         [238. Product of Array Except Self](./leetcode/solution22.md)         | 2022-03-13 |   JAVA   |
 | 23  |               [64. Minimum Path Sum](./leetcode/solution23.md)                | 2022-03-13 |   JAVA   |
 | 24  |               [73. Set Matrix Zeroes](./leetcode/solution24.md)               | 2022-03-13 |   JAVA   |
+| 25  |                  [79. Word Search](./leetcode/solution25.md)                  | 2022-03-13 |   JAVA   |
