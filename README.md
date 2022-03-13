@@ -256,3 +256,4 @@ Author: Jung
 | 21  |                 [134. Gas Station](./leetcode/solution21.md)                  | 2022-03-12 |   JAVA   |
 | 22  |         [238. Product of Array Except Self](./leetcode/solution22.md)         | 2022-03-13 |   JAVA   |
 | 23  |               [64. Minimum Path Sum](./leetcode/solution23.md)                | 2022-03-13 |   JAVA   |
+| 24  |               [73. Set Matrix Zeroes](./leetcode/solution24.md)               | 2022-03-13 |   JAVA   |
