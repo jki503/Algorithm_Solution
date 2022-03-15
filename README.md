@@ -245,6 +245,7 @@ Author: Jung
 |  3  |   [Four Squares(17626)](./baekjoon/class3/solution03.md)   | 2022-03-16 |   JAVA   |
 |  4  |   [잃어버린 괄호(1541)](./baekjoon/class3/solution04.md)   | 2022-03-16 |   JAVA   |
 |  5  | [팩토리얼 0의 개수(1676)](./baekjoon/class3/solution05.md) | 2022-03-16 |   JAVA   |
+|  6  |     [미로 탐색(2178)](./baekjoon/class3/solution06.md)     | 2022-03-16 |   JAVA   |
 
 </br>
 </br>
