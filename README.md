@@ -261,3 +261,4 @@ Author: Jung
 | 25  |                  [79. Word Search](./leetcode/solution25.md)                  | 2022-03-13 |   JAVA   |
 | 26  |              [74. Search a 2D Matrix](./leetcode/solution26.md)               | 2022-03-13 |   JAVA   |
 | 27  |                [338. Counting Bits](./leetcode/solution27.md)                 | 2022-03-13 |   JAVA   |
+| 28  |                 [71. Simplify Path](./leetcode/solution28.md)                 | 2022-03-15 |   JAVA   |
