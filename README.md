@@ -238,12 +238,13 @@ Author: Jung
 
 ### **class3**
 
-| No. |                          Name                          |    Date    | Language |
-| :-: | :----------------------------------------------------: | :--------: | :------: |
-|  1  | [피보나치 함수(1003)](./baekjoon/class3/solution01.md) | 2022-03-16 |   JAVA   |
-|  2  |  [1로 만들기(1463)](./baekjoon/class3/solution02.md)   | 2022-03-16 |   JAVA   |
-|  3  | [Four Squares(17626)](./baekjoon/class3/solution03.md) | 2022-03-16 |   JAVA   |
-|  4  | [잃어버린 괄호(1541)](./baekjoon/class3/solution04.md) | 2022-03-16 |   JAVA   |
+| No. |                            Name                            |    Date    | Language |
+| :-: | :--------------------------------------------------------: | :--------: | :------: |
+|  1  |   [피보나치 함수(1003)](./baekjoon/class3/solution01.md)   | 2022-03-16 |   JAVA   |
+|  2  |    [1로 만들기(1463)](./baekjoon/class3/solution02.md)     | 2022-03-16 |   JAVA   |
+|  3  |   [Four Squares(17626)](./baekjoon/class3/solution03.md)   | 2022-03-16 |   JAVA   |
+|  4  |   [잃어버린 괄호(1541)](./baekjoon/class3/solution04.md)   | 2022-03-16 |   JAVA   |
+|  5  | [팩토리얼 0의 개수(1676)](./baekjoon/class3/solution05.md) | 2022-03-16 |   JAVA   |
 
 </br>
 </br>
