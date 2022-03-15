@@ -247,6 +247,7 @@ Author: Jung
 |  5  | [팩토리얼 0의 개수(1676)](./baekjoon/class3/solution05.md) | 2022-03-16 |   JAVA   |
 |  6  |     [미로 탐색(2178)](./baekjoon/class3/solution06.md)     | 2022-03-16 |   JAVA   |
 |  7  |     [DFS와 BFS(1260)](./baekjoon/class3/solution07.md)     | 2022-03-16 |   JAVA   |
+|  8  |     [숨바꼭질(1697)](./baekjoon/class3/solution08.md)      | 2022-03-16 |   JAVA   |
 
 </br>
 </br>
