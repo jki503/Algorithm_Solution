@@ -226,6 +226,7 @@ Author: Jung
 | 12  |      [수 찾기(1920)](./baekjoon/class2/solution12.md)       | 2022-03-07 |   JAVA   |
 | 13  |    [소수 구하기(1929)](./baekjoon/class2/solution13.md)     | 2022-03-07 |   JAVA   |
 | 14  |     [소수 찾기(1978)](./baekjoon/class2/solution14.md)      | 2022-03-07 |   JAVA   |
+| 15  |       [분해합(2231)](./baekjoon/class2/solution15.md)       | 2022-03-15 |   JAVA   |
 
 </br>
 </br>
@@ -264,3 +265,6 @@ Author: Jung
 | 28  |                 [71. Simplify Path](./leetcode/solution28.md)                 | 2022-03-15 |   JAVA   |
 | 29  |           [347. Top K Frequent Elements](./leetcode/solution29.md)            | 2022-03-15 |   JAVA   |
 | 30  |            [35. Search Insert Position](./leetcode/solution30.md)             | 2022-03-15 |   JAVA   |
+| 31  |                 [36. Valid Sudoku](./leetcode/solution31.md)                  | 2022-03-15 |   JAVA   |
+| 32  |              [58. Length of Last Word](./leetcode/solution32.md)              | 2022-03-15 |   JAVA   |
+| 33  |                 [62. Unique Paths](./leetcode/solution33.md)                  | 2022-03-15 |   JAVA   |
