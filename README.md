@@ -263,3 +263,4 @@ Author: Jung
 | 27  |                [338. Counting Bits](./leetcode/solution27.md)                 | 2022-03-13 |   JAVA   |
 | 28  |                 [71. Simplify Path](./leetcode/solution28.md)                 | 2022-03-15 |   JAVA   |
 | 29  |           [347. Top K Frequent Elements](./leetcode/solution29.md)            | 2022-03-15 |   JAVA   |
+| 30  |            [35. Search Insert Position](./leetcode/solution30.md)             | 2022-03-15 |   JAVA   |
