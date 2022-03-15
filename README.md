@@ -241,6 +241,7 @@ Author: Jung
 | No. |                          Name                          |    Date    | Language |
 | :-: | :----------------------------------------------------: | :--------: | :------: |
 |  1  | [피보나치 함수(1003)](./baekjoon/class3/solution01.md) | 2022-03-16 |   JAVA   |
+|  2  |  [1로 만들기(1463)](./baekjoon/class3/solution02.md)   | 2022-03-16 |   JAVA   |
 
 </br>
 </br>
