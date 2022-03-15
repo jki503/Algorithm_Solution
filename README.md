@@ -226,7 +226,8 @@ Author: Jung
 | 12  |      [수 찾기(1920)](./baekjoon/class2/solution12.md)       | 2022-03-07 |   JAVA   |
 | 13  |    [소수 구하기(1929)](./baekjoon/class2/solution13.md)     | 2022-03-07 |   JAVA   |
 | 14  |     [소수 찾기(1978)](./baekjoon/class2/solution14.md)      | 2022-03-07 |   JAVA   |
-| 15  |       [분해합(2231)](./baekjoon/class2/solution15.md)       | 2022-03-15 |   JAVA   |
+| 15  |       [카드2(2164)](./baekjoon/class2/solution15.md)        | 2022-03-15 |   JAVA   |
+| 16  |       [분해합(2231)](./baekjoon/class2/solution16.md)       | 2022-03-15 |   JAVA   |
 
 </br>
 </br>
