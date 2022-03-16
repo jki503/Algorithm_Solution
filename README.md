@@ -248,6 +248,7 @@ Author: Jung
 |  6  |     [미로 탐색(2178)](./baekjoon/class3/solution06.md)     | 2022-03-16 |   JAVA   |
 |  7  |     [DFS와 BFS(1260)](./baekjoon/class3/solution07.md)     | 2022-03-16 |   JAVA   |
 |  8  |     [숨바꼭질(1697)](./baekjoon/class3/solution08.md)      | 2022-03-16 |   JAVA   |
+|  9  |      [듣보잡(1746)](./baekjoon/class3/solution09.md)       | 2022-03-16 |   JAVA   |
 
 </br>
 </br>
