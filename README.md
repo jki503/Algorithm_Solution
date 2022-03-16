@@ -292,4 +292,5 @@ Author: Jung
 | 32  |              [58. Length of Last Word](./leetcode/solution32.md)              | 2022-03-15 |   JAVA   |
 | 33  |                 [62. Unique Paths](./leetcode/solution33.md)                  | 2022-03-15 |   JAVA   |
 | 34  |            [239. Sliding Window Maximum](./leetcode/solution34.md)            | 2022-03-16 |   JAVA   |
-| 35  |           [946. Validate Stack Sequences](./leetcode/solution34.md)           | 2022-03-16 |   JAVA   |
+| 35  |           [946. Validate Stack Sequences](./leetcode/solution35.md)           | 2022-03-16 |   JAVA   |
+| 36  |  [1249. Minimum Remove to Make Valid Parentheses](./leetcode/solution36.md)   | 2022-03-16 |   JAVA   |
