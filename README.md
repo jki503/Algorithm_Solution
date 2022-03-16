@@ -290,3 +290,4 @@ Author: Jung
 | 31  |                 [36. Valid Sudoku](./leetcode/solution31.md)                  | 2022-03-15 |   JAVA   |
 | 32  |              [58. Length of Last Word](./leetcode/solution32.md)              | 2022-03-15 |   JAVA   |
 | 33  |                 [62. Unique Paths](./leetcode/solution33.md)                  | 2022-03-15 |   JAVA   |
+| 34  |            [239. Sliding Window Maximum](./leetcode/solution34.md)            | 2022-03-15 |   JAVA   |
