@@ -250,6 +250,9 @@ Author: Jung
 |  7  |     [DFS와 BFS(1260)](./baekjoon/class3/solution07.md)     | 2022-03-16 |   JAVA   |
 |  8  |     [숨바꼭질(1697)](./baekjoon/class3/solution08.md)      | 2022-03-16 |   JAVA   |
 |  9  |      [듣보잡(1746)](./baekjoon/class3/solution09.md)       | 2022-03-16 |   JAVA   |
+| 10  |      [최소힙(1927)](./baekjoon/class3/solution10.md)       | 2022-03-16 |   JAVA   |
+| 11  |      [최대힙(11279)](./baekjoon/class3/solution11.md)      | 2022-03-16 |   JAVA   |
+| 12  |    [절댓값 힙(11286)](./baekjoon/class3/solution12.md)     | 2022-03-16 |   JAVA   |
 
 </br>
 </br>
