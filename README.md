@@ -253,7 +253,8 @@ Author: Jung
 | 10  |      [최소힙(1927)](./baekjoon/class3/solution10.md)       | 2022-03-16 |   JAVA   |
 | 11  |      [최대힙(11279)](./baekjoon/class3/solution11.md)      | 2022-03-16 |   JAVA   |
 | 12  |    [절댓값 힙(11286)](./baekjoon/class3/solution12.md)     | 2022-03-16 |   JAVA   |
-| 13  | [구간 합 구하기 4(11659)](./baekjoon/class3/solution13.md) | 2022-03-16 |   JAVA   |
+| 13  | [구간 합 구하기 4(11659)](./baekjoon/class3/solution13.md) | 2022-03-17 |   JAVA   |
+| 14  |     [바이러스(2606)](./baekjoon/class3/solution14.md)      | 2022-03-17 |   JAVA   |
 
 </br>
 </br>
@@ -298,4 +299,4 @@ Author: Jung
 | 34  |            [239. Sliding Window Maximum](./leetcode/solution34.md)            | 2022-03-16 |   JAVA   |
 | 35  |           [946. Validate Stack Sequences](./leetcode/solution35.md)           | 2022-03-16 |   JAVA   |
 | 36  |  [1249. Minimum Remove to Make Valid Parentheses](./leetcode/solution36.md)   | 2022-03-16 |   JAVA   |
-| 36  |             [856. Score of Parentheses](./leetcode/solution37.md)             | 2022-03-16 |   JAVA   |
+| 36  |             [856. Score of Parentheses](./leetcode/solution37.md)             | 2022-03-17 |   JAVA   |
