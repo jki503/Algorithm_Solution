@@ -301,3 +301,4 @@ Author: Jung
 | 35  |           [946. Validate Stack Sequences](./leetcode/solution35.md)           | 2022-03-16 |   JAVA   |
 | 36  |  [1249. Minimum Remove to Make Valid Parentheses](./leetcode/solution36.md)   | 2022-03-16 |   JAVA   |
 | 36  |             [856. Score of Parentheses](./leetcode/solution37.md)             | 2022-03-17 |   JAVA   |
+| 37  |           [316. Remove Duplicate Letters](./leetcode/solution37.md)           | 2022-03-18 |   JAVA   |
