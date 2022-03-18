@@ -305,3 +305,4 @@ Author: Jung
 | 39  |                [27. Remove Element](./leetcode/solution39.md)                 | 2022-03-18 |   JAVA   |
 | 40  |      [26. Remove Duplicates from Sorted Array](./leetcode/solution40.md)      | 2022-03-18 |   JAVA   |
 | 41  |                 [283. Move Zeroes](./leetcode/solution41.md)                  | 2022-03-18 |   JAVA   |
+| 42  |                [56. Merge Intervals](./leetcode/solution42.md)                | 2022-03-18 |   JAVA   |
