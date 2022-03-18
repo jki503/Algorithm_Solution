@@ -300,6 +300,7 @@ Author: Jung
 | 34  |            [239. Sliding Window Maximum](./leetcode/solution34.md)            | 2022-03-16 |   JAVA   |
 | 35  |           [946. Validate Stack Sequences](./leetcode/solution35.md)           | 2022-03-16 |   JAVA   |
 | 36  |  [1249. Minimum Remove to Make Valid Parentheses](./leetcode/solution36.md)   | 2022-03-16 |   JAVA   |
-| 36  |             [856. Score of Parentheses](./leetcode/solution37.md)             | 2022-03-17 |   JAVA   |
-| 37  |           [316. Remove Duplicate Letters](./leetcode/solution38.md)           | 2022-03-18 |   JAVA   |
-| 38  |                [27. Remove Element](./leetcode/solution39.md)                 | 2022-03-18 |   JAVA   |
+| 37  |             [856. Score of Parentheses](./leetcode/solution37.md)             | 2022-03-17 |   JAVA   |
+| 38  |           [316. Remove Duplicate Letters](./leetcode/solution38.md)           | 2022-03-18 |   JAVA   |
+| 39  |                [27. Remove Element](./leetcode/solution39.md)                 | 2022-03-18 |   JAVA   |
+| 40  |      [26. Remove Duplicates from Sorted Array](./leetcode/solution40.md)      | 2022-03-18 |   JAVA   |
