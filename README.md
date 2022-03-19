@@ -308,3 +308,4 @@ Author: Jung
 | 42  |                [56. Merge Intervals](./leetcode/solution42.md)                | 2022-03-18 |   JAVA   |
 | 43  |           [678. Valid Parenthesis String](./leetcode/solution43.md)           | 2022-03-18 |   JAVA   |
 | 44  | [2116. Check if a Parentheses String Can Be Valid](./leetcode/solution44.md)  | 2022-03-18 |   JAVA   |
+| 45  |          [978. Longest Turbulent Subarray](./leetcode/solution45.md)          | 2022-03-18 |   JAVA   |
