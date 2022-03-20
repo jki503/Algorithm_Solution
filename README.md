@@ -310,3 +310,4 @@ Author: Jung
 | 44  | [2116. Check if a Parentheses String Can Be Valid](./leetcode/solution44.md)  | 2022-03-18 |   JAVA   |
 | 45  |          [978. Longest Turbulent Subarray](./leetcode/solution45.md)          | 2022-03-19 |   JAVA   |
 | 46  |              [130. Surrounded Regions](./leetcode/solution46.md)              | 2022-03-19 |   JAVA   |
+| 47  |   [1007. Minimum Domino Rotations For Equal Row](./leetcode/solution47.md)    | 2022-03-20 |   JAVA   |
