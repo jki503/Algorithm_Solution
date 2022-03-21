@@ -311,3 +311,4 @@ Author: Jung
 | 45  |          [978. Longest Turbulent Subarray](./leetcode/solution45.md)          | 2022-03-19 |   JAVA   |
 | 46  |              [130. Surrounded Regions](./leetcode/solution46.md)              | 2022-03-19 |   JAVA   |
 | 47  |   [1007. Minimum Domino Rotations For Equal Row](./leetcode/solution47.md)    | 2022-03-20 |   JAVA   |
+| 48  |               [763. Partition Labels](./leetcode/solution48.md)               | 2022-03-21 |   JAVA   |
