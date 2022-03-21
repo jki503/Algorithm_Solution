@@ -232,7 +232,7 @@ Author: Jung
 | 14  |     [소수 찾기(1978)](./baekjoon/class2/solution14.md)      | 2022-03-07 |   JAVA   |
 | 15  |       [카드2(2164)](./baekjoon/class2/solution15.md)        | 2022-03-15 |   JAVA   |
 | 16  |       [분해합(2231)](./baekjoon/class2/solution16.md)       | 2022-03-15 |   JAVA   |
-| 17  |      [벌집(2292)](./baekjoon/class2/solution17.md) $$       | 2022-03-15 |   JAVA   |
+| 17  |        [벌집(2292)](./baekjoon/class2/solution17.md)        | 2022-03-15 |   JAVA   |
 | 18  |   [좌표 정렬하기(11650)](./baekjoon/class2/solution18.md)   | 2022-03-16 |   JAVA   |
 
 </br>
