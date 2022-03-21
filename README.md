@@ -312,3 +312,4 @@ Author: Jung
 | 46  |              [130. Surrounded Regions](./leetcode/solution46.md)              | 2022-03-19 |   JAVA   |
 | 47  |   [1007. Minimum Domino Rotations For Equal Row](./leetcode/solution47.md)    | 2022-03-20 |   JAVA   |
 | 48  |               [763. Partition Labels](./leetcode/solution48.md)               | 2022-03-21 |   JAVA   |
+| 49  |              [200. Number of Islands](./leetcode/solution49.md)               | 2022-03-21 |   JAVA   |
