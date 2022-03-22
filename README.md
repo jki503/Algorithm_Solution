@@ -313,3 +313,4 @@ Author: Jung
 | 47  |   [1007. Minimum Domino Rotations For Equal Row](./leetcode/solution47.md)    | 2022-03-20 |   JAVA   |
 | 48  |               [763. Partition Labels](./leetcode/solution48.md)               | 2022-03-21 |   JAVA   |
 | 49  |              [200. Number of Islands](./leetcode/solution49.md)               | 2022-03-21 |   JAVA   |
+| 50  | [1663. Smallest String With A Given Numeric Value](./leetcode/solution50.md)  | 2022-03-22 |   JAVA   |
