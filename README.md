@@ -204,6 +204,7 @@ Author: Jung
 | 37  |      [멀리 뛰기](./programmers/level3/solution37.md)      | 2022-03-06 |   JAVA   |
 | 38  |      [입국심사](./programmers/level3/solution38.md)       | 2022-03-12 |   JAVA   |
 | 39  |   [디스크 컨트롤러](./programmers/level3/solution39.md)   | 2022-03-15 |   JAVA   |
+| 40  |        [순위](./programmers/level3/solution40.md)         | 2022-03-25 |   JAVA   |
 
 </br>
 </br>
