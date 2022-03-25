@@ -316,3 +316,4 @@ Author: Jung
 | 50  | [1663. Smallest String With A Given Numeric Value](./leetcode/solution50.md)  | 2022-03-22 |   JAVA   |
 | 51  |              [991. Broken Calculator](./leetcode/solution51.md)               | 2022-03-23 |   JAVA   |
 | 52  |             [881. Boats to Save People](./leetcode/solution52.md)             | 2022-03-24 |   JAVA   |
+| 53  |             [1029. Two City Scheduling](./leetcode/solution53.md)             | 2022-03-25 |   JAVA   |
