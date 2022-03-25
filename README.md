@@ -256,6 +256,7 @@ Author: Jung
 | 13  | [구간 합 구하기 4(11659)](./baekjoon/class3/solution13.md) | 2022-03-17 |   JAVA   |
 | 14  |     [바이러스(2606)](./baekjoon/class3/solution14.md)      | 2022-03-17 |   JAVA   |
 | 15  |    [계단 오르기(2597)](./baekjoon/class3/solution15.md)    | 2022-03-17 |   JAVA   |
+| 16  |    [경로 찾기(11403)](./baekjoon/class3/solution16.md)     | 2022-03-25 |   JAVA   |
 
 </br>
 </br>
