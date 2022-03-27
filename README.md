@@ -320,3 +320,5 @@ Author: Jung
 | 52  |             [881. Boats to Save People](./leetcode/solution52.md)             | 2022-03-24 |   JAVA   |
 | 53  |             [1029. Two City Scheduling](./leetcode/solution53.md)             | 2022-03-25 |   JAVA   |
 | 54  |                [704. Binary Search](./leetcode/solution54.md)                 | 2022-03-26 |   JAVA   |
+| 55  |              [399. Evaluate Division](./leetcode/solution55.md)               | 2022-03-26 |   JAVA   |
+| 56  |       [1337. The K Weakest Rows in a Matrix](./leetcode/solution56.md)        | 2022-03-27 |   JAVA   |
