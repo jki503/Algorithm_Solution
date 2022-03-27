@@ -322,3 +322,4 @@ Author: Jung
 | 54  |                [704. Binary Search](./leetcode/solution54.md)                 | 2022-03-26 |   JAVA   |
 | 55  |              [399. Evaluate Division](./leetcode/solution55.md)               | 2022-03-26 |   JAVA   |
 | 56  |       [1337. The K Weakest Rows in a Matrix](./leetcode/solution56.md)        | 2022-03-27 |   JAVA   |
+| 57  |              [399. Evaluate Division](./leetcode/solution57.md)               | 2022-03-27 |   JAVA   |
