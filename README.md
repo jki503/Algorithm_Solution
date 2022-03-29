@@ -324,3 +324,4 @@ Author: Jung
 | 56  |       [1337. The K Weakest Rows in a Matrix](./leetcode/solution56.md)        | 2022-03-27 |   JAVA   |
 | 57  |              [399. Evaluate Division](./leetcode/solution57.md)               | 2022-03-27 |   JAVA   |
 | 58  |              [743. Network Delay Time](./leetcode/solution58.md)              | 2022-03-28 |   JAVA   |
+| 59  |          [287. Find the Duplicate Number](./leetcode/solution59.md)           | 2022-03-29 |   JAVA   |
