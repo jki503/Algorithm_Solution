@@ -325,3 +325,4 @@ Author: Jung
 | 57  |              [399. Evaluate Division](./leetcode/solution57.md)               | 2022-03-27 |   JAVA   |
 | 58  |              [743. Network Delay Time](./leetcode/solution58.md)              | 2022-03-28 |   JAVA   |
 | 59  |          [287. Find the Duplicate Number](./leetcode/solution59.md)           | 2022-03-29 |   JAVA   |
+| 60  |        [1514. Path with Maximum Probability](./leetcode/solution60.md)        | 2022-03-30 |   JAVA   |
