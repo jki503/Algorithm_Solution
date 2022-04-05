@@ -207,6 +207,7 @@ Author: Jung
 | 40  |        [순위](./programmers/level3/solution40.md)         | 2022-03-25 |   JAVA   |
 | 41  |    [줄 서는 방법](./programmers/level3/solution41.md)     | 2022-03-31 |   JAVA   |
 | 42  |  [스티커 모으기(2)](./programmers/level3/solution42.md)   | 2022-04-03 |   JAVA   |
+| 43  |     [길찾기 게임](./programmers/level3/solution43.md)     | 2022-04-05 |   JAVA   |
 
 </br>
 </br>
