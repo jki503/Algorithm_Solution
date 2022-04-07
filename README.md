@@ -330,3 +330,4 @@ Author: Jung
 | 59  |          [287. Find the Duplicate Number](./leetcode/solution59.md)           | 2022-03-29 |   JAVA   |
 | 60  |        [1514. Path with Maximum Probability](./leetcode/solution60.md)        | 2022-03-30 |   JAVA   |
 | 61  |                [344. Reverse String](./leetcode/solution61.md)                | 2022-04-01 |   JAVA   |
+| 62  |              [1046. Last Stone Weight](./leetcode/solution62.md)              | 2022-04-07 |   JAVA   |
