@@ -157,6 +157,7 @@ Author: Jung
 | 57  |          [조이스틱](./programmers/level2/solution57.md)          | 2022-03-03 |   JAVA   |
 | 58  |           [후보키](./programmers/level2/solution58.md)           | 2022-03-04 |   JAVA   |
 | 59  |         [양궁 대회](./programmers/level2/solution59.md)          | 2022-03-05 |   JAVA   |
+| 60  |         [숫자 블럭](./programmers/level2/solution60.md)          | 2022-06-08 |   JAVA   |
 
 </br>
 </br>
