@@ -211,6 +211,14 @@ Author: Jung
 | 43  |     [길찾기 게임](./programmers/level3/solution43.md)     | 2022-04-05 |   JAVA   |
 
 </br>
+
+### Level-4
+
+| No. |                      Name                       |    Date    | Language |
+| :-: | :---------------------------------------------: | :--------: | :------: |
+|  1  | [가사 검색](./programmers/level4/solution01.md) | 2022-06-10 |   JAVA   |
+
+</br>
 </br>
 
 ## **백준**
