@@ -340,3 +340,4 @@ Author: Jung
 | 60  |        [1514. Path with Maximum Probability](./leetcode/solution60.md)        | 2022-03-30 |   JAVA   |
 | 61  |                [344. Reverse String](./leetcode/solution61.md)                | 2022-04-01 |   JAVA   |
 | 62  |              [1046. Last Stone Weight](./leetcode/solution62.md)              | 2022-04-07 |   JAVA   |
+| 63  |            [1695. Maximum Erasure Value](./leetcode/solution63.md)            | 2022-06-12 |   JAVA   |
