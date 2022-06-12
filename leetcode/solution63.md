@@ -9,27 +9,25 @@ import java.util.*;
 
 class Solution {
     public int maximumUniqueSubarray(int[] nums) {
-        int result = 0;
-        int sum = 0;
-        int left = 0;
 
         Map<Integer, Integer> map = new HashMap<>();
+        int n = nums.length;
+        int result = 0;
+        int sum = 0;
+        int j = 0;
 
-        for(int i = 0; i < nums.length ; i++){
+
+        for(int i = 0; i < n ; i++){
             int num = nums[i];
             sum += num;
 
             map.put(num, map.getOrDefault(num, 0) + 1);
 
-            if(map.get(num) > 1)
-            {
-                while(map.get(num) > 1){
-                    System.out.println(nums[left]);
-
-                    map.put(nums[left], map.get(nums[left]) - 1);
-                    sum -= nums[left];
-                    left++;
-                }
+            while(map.get(num) > 1){
+                int curr = nums[j];
+                map.put(curr, map.get(curr) - 1);
+                sum -= curr;
+                j++;
             }
 
             result = result < sum ? sum : result;
