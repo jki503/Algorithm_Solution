@@ -341,3 +341,4 @@ Author: Jung
 | 61  |                [344. Reverse String](./leetcode/solution61.md)                | 2022-04-01 |   JAVA   |
 | 62  |              [1046. Last Stone Weight](./leetcode/solution62.md)              | 2022-04-07 |   JAVA   |
 | 63  |            [1695. Maximum Erasure Value](./leetcode/solution63.md)            | 2022-06-12 |   JAVA   |
+| 64  |   [1658. Minimum Operations to Reduce X to Zero](./leetcode/solution64.md)    | 2022-06-13 |   JAVA   |
