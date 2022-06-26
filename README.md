@@ -347,3 +347,4 @@ Author: Jung
 | 66  |       [1642. Furthest Building You Can Reach](./leetcode/solution66.md)       | 2022-06-22 |   JAVA   |
 | 67  |  [1354. Construct Target Array With Multiple Sums](./leetcode/solution67.md)  | 2022-06-26 |   JAVA   |
 | 68  |             [665. Non-decreasing Array](./leetcode/solution68.md)             | 2022-06-26 |   JAVA   |
+| 69  |  [1423. Maximum Points You Can Obtain from Cards](./leetcode/solution69.md)   | 2022-06-27 |   JAVA   |
