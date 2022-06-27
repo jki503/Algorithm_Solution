@@ -277,74 +277,76 @@ Author: Jung
 
 ## **LeetCode**
 
-| No. |                                     Name                                      |    Date    | Language |
-| :-: | :---------------------------------------------------------------------------: | :--------: | :------: |
-|  1  |                    [1. Two Sum](./leetcode/solution01.md)                     | 2022-03-08 |   JAVA   |
-|  2  |                [2. Add Two Numbers](./leetcode/solution02.md)                 | 2022-03-08 |   JAVA   |
-|  3  | [3. Longest Substring Without Repeating Characters](./leetcode/solution03.md) | 2022-03-08 |   JAVA   |
-|  4  |          [4. Median of Two Sorted Arrays](./leetcode/solution04.md)           | 2022-03-08 |   JAVA   |
-|  5  |                [7. Reverse Integer](./leetcode/solution05.md)                 | 2022-03-08 |   JAVA   |
-|  6  |            [8. String to Integer(atoi)](./leetcode/solution06.md)             | 2022-03-09 |   JAVA   |
-|  7  |               [9. Palindrome Number](./leetcode/solution07.md)                | 2022-03-08 |   JAVA   |
-|  8  |          [10. Regular Expression Matching](./leetcode/solution08.md)          | 2022-03-09 |   JAVA   |
-|  9  |           [11. Container With Most Water](./leetcode/solution09.md)           | 2022-03-09 |   JAVA   |
-| 10  |               [12. Integer to Roman](./leetcode/solution10.md)                | 2022-03-09 |   JAVA   |
-| 11  |               [13. Roman to Integer](./leetcode/solution11.md)                | 2022-03-10 |   JAVA   |
-| 12  |             [14. Longest Common Prefix](./leetcode/solution12.md)             | 2022-03-10 |   JAVA   |
-| 13  |                     [15. 3Sum](./leetcode/solution13.md)                      | 2022-03-11 |   JAVA   |
-| 14  |                 [16. 3Sum Closest](./leetcode/solution14.md)                  | 2022-03-11 |   JAVA   |
-| 15  |     [17. Letter Combinations of a Phone Number](./leetcode/solution15.md)     | 2022-03-11 |   JAVA   |
-| 16  |        [33. Search in Rotated Sorted Array](./leetcode/solution16.md)         | 2022-03-12 |   JAVA   |
-| 17  |       [215. Kth Largest Element in an Array](./leetcode/solution17.md)        | 2022-03-12 |   JAVA   |
-| 18  |      [387. First Unique Character in a String](./leetcode/solution18.md)      | 2022-03-12 |   JAVA   |
-| 19  |         [451. Sort Characters By Frequency](./leetcode/solution19.md)         | 2022-03-12 |   JAVA   |
-| 20  |                [179. Largest Number](./leetcode/solution20.md)                | 2022-03-12 |   JAVA   |
-| 21  |                 [134. Gas Station](./leetcode/solution21.md)                  | 2022-03-12 |   JAVA   |
-| 22  |         [238. Product of Array Except Self](./leetcode/solution22.md)         | 2022-03-13 |   JAVA   |
-| 23  |               [64. Minimum Path Sum](./leetcode/solution23.md)                | 2022-03-13 |   JAVA   |
-| 24  |               [73. Set Matrix Zeroes](./leetcode/solution24.md)               | 2022-03-13 |   JAVA   |
-| 25  |                  [79. Word Search](./leetcode/solution25.md)                  | 2022-03-13 |   JAVA   |
-| 26  |              [74. Search a 2D Matrix](./leetcode/solution26.md)               | 2022-03-13 |   JAVA   |
-| 27  |                [338. Counting Bits](./leetcode/solution27.md)                 | 2022-03-13 |   JAVA   |
-| 28  |                 [71. Simplify Path](./leetcode/solution28.md)                 | 2022-03-15 |   JAVA   |
-| 29  |           [347. Top K Frequent Elements](./leetcode/solution29.md)            | 2022-03-15 |   JAVA   |
-| 30  |            [35. Search Insert Position](./leetcode/solution30.md)             | 2022-03-15 |   JAVA   |
-| 31  |                 [36. Valid Sudoku](./leetcode/solution31.md)                  | 2022-03-15 |   JAVA   |
-| 32  |              [58. Length of Last Word](./leetcode/solution32.md)              | 2022-03-15 |   JAVA   |
-| 33  |                 [62. Unique Paths](./leetcode/solution33.md)                  | 2022-03-15 |   JAVA   |
-| 34  |            [239. Sliding Window Maximum](./leetcode/solution34.md)            | 2022-03-16 |   JAVA   |
-| 35  |           [946. Validate Stack Sequences](./leetcode/solution35.md)           | 2022-03-16 |   JAVA   |
-| 36  |  [1249. Minimum Remove to Make Valid Parentheses](./leetcode/solution36.md)   | 2022-03-16 |   JAVA   |
-| 37  |             [856. Score of Parentheses](./leetcode/solution37.md)             | 2022-03-17 |   JAVA   |
-| 38  |           [316. Remove Duplicate Letters](./leetcode/solution38.md)           | 2022-03-18 |   JAVA   |
-| 39  |                [27. Remove Element](./leetcode/solution39.md)                 | 2022-03-18 |   JAVA   |
-| 40  |      [26. Remove Duplicates from Sorted Array](./leetcode/solution40.md)      | 2022-03-18 |   JAVA   |
-| 41  |                 [283. Move Zeroes](./leetcode/solution41.md)                  | 2022-03-18 |   JAVA   |
-| 42  |                [56. Merge Intervals](./leetcode/solution42.md)                | 2022-03-18 |   JAVA   |
-| 43  |           [678. Valid Parenthesis String](./leetcode/solution43.md)           | 2022-03-18 |   JAVA   |
-| 44  | [2116. Check if a Parentheses String Can Be Valid](./leetcode/solution44.md)  | 2022-03-18 |   JAVA   |
-| 45  |          [978. Longest Turbulent Subarray](./leetcode/solution45.md)          | 2022-03-19 |   JAVA   |
-| 46  |              [130. Surrounded Regions](./leetcode/solution46.md)              | 2022-03-19 |   JAVA   |
-| 47  |   [1007. Minimum Domino Rotations For Equal Row](./leetcode/solution47.md)    | 2022-03-20 |   JAVA   |
-| 48  |               [763. Partition Labels](./leetcode/solution48.md)               | 2022-03-21 |   JAVA   |
-| 49  |              [200. Number of Islands](./leetcode/solution49.md)               | 2022-03-21 |   JAVA   |
-| 50  | [1663. Smallest String With A Given Numeric Value](./leetcode/solution50.md)  | 2022-03-22 |   JAVA   |
-| 51  |              [991. Broken Calculator](./leetcode/solution51.md)               | 2022-03-23 |   JAVA   |
-| 52  |             [881. Boats to Save People](./leetcode/solution52.md)             | 2022-03-24 |   JAVA   |
-| 53  |             [1029. Two City Scheduling](./leetcode/solution53.md)             | 2022-03-25 |   JAVA   |
-| 54  |                [704. Binary Search](./leetcode/solution54.md)                 | 2022-03-26 |   JAVA   |
-| 55  |              [399. Evaluate Division](./leetcode/solution55.md)               | 2022-03-26 |   JAVA   |
-| 56  |       [1337. The K Weakest Rows in a Matrix](./leetcode/solution56.md)        | 2022-03-27 |   JAVA   |
-| 57  |              [399. Evaluate Division](./leetcode/solution57.md)               | 2022-03-27 |   JAVA   |
-| 58  |              [743. Network Delay Time](./leetcode/solution58.md)              | 2022-03-28 |   JAVA   |
-| 59  |          [287. Find the Duplicate Number](./leetcode/solution59.md)           | 2022-03-29 |   JAVA   |
-| 60  |        [1514. Path with Maximum Probability](./leetcode/solution60.md)        | 2022-03-30 |   JAVA   |
-| 61  |                [344. Reverse String](./leetcode/solution61.md)                | 2022-04-01 |   JAVA   |
-| 62  |              [1046. Last Stone Weight](./leetcode/solution62.md)              | 2022-04-07 |   JAVA   |
-| 63  |            [1695. Maximum Erasure Value](./leetcode/solution63.md)            | 2022-06-12 |   JAVA   |
-| 64  |   [1658. Minimum Operations to Reduce X to Zero](./leetcode/solution64.md)    | 2022-06-13 |   JAVA   |
-| 65  |                   [120. Triangle](./leetcode/solution65.md)                   | 2022-06-13 |   JAVA   |
-| 66  |       [1642. Furthest Building You Can Reach](./leetcode/solution66.md)       | 2022-06-22 |   JAVA   |
-| 67  |  [1354. Construct Target Array With Multiple Sums](./leetcode/solution67.md)  | 2022-06-26 |   JAVA   |
-| 68  |             [665. Non-decreasing Array](./leetcode/solution68.md)             | 2022-06-26 |   JAVA   |
-| 69  |  [1423. Maximum Points You Can Obtain from Cards](./leetcode/solution69.md)   | 2022-06-27 |   JAVA   |
+| No. |                                           Name                                            |    Date    | Language |
+| :-: | :---------------------------------------------------------------------------------------: | :--------: | :------: |
+|  1  |                          [1. Two Sum](./leetcode/solution01.md)                           | 2022-03-08 |   JAVA   |
+|  2  |                      [2. Add Two Numbers](./leetcode/solution02.md)                       | 2022-03-08 |   JAVA   |
+|  3  |       [3. Longest Substring Without Repeating Characters](./leetcode/solution03.md)       | 2022-03-08 |   JAVA   |
+|  4  |                [4. Median of Two Sorted Arrays](./leetcode/solution04.md)                 | 2022-03-08 |   JAVA   |
+|  5  |                      [7. Reverse Integer](./leetcode/solution05.md)                       | 2022-03-08 |   JAVA   |
+|  6  |                  [8. String to Integer(atoi)](./leetcode/solution06.md)                   | 2022-03-09 |   JAVA   |
+|  7  |                     [9. Palindrome Number](./leetcode/solution07.md)                      | 2022-03-08 |   JAVA   |
+|  8  |                [10. Regular Expression Matching](./leetcode/solution08.md)                | 2022-03-09 |   JAVA   |
+|  9  |                 [11. Container With Most Water](./leetcode/solution09.md)                 | 2022-03-09 |   JAVA   |
+| 10  |                     [12. Integer to Roman](./leetcode/solution10.md)                      | 2022-03-09 |   JAVA   |
+| 11  |                     [13. Roman to Integer](./leetcode/solution11.md)                      | 2022-03-10 |   JAVA   |
+| 12  |                   [14. Longest Common Prefix](./leetcode/solution12.md)                   | 2022-03-10 |   JAVA   |
+| 13  |                           [15. 3Sum](./leetcode/solution13.md)                            | 2022-03-11 |   JAVA   |
+| 14  |                       [16. 3Sum Closest](./leetcode/solution14.md)                        | 2022-03-11 |   JAVA   |
+| 15  |           [17. Letter Combinations of a Phone Number](./leetcode/solution15.md)           | 2022-03-11 |   JAVA   |
+| 16  |              [33. Search in Rotated Sorted Array](./leetcode/solution16.md)               | 2022-03-12 |   JAVA   |
+| 17  |             [215. Kth Largest Element in an Array](./leetcode/solution17.md)              | 2022-03-12 |   JAVA   |
+| 18  |            [387. First Unique Character in a String](./leetcode/solution18.md)            | 2022-03-12 |   JAVA   |
+| 19  |               [451. Sort Characters By Frequency](./leetcode/solution19.md)               | 2022-03-12 |   JAVA   |
+| 20  |                      [179. Largest Number](./leetcode/solution20.md)                      | 2022-03-12 |   JAVA   |
+| 21  |                       [134. Gas Station](./leetcode/solution21.md)                        | 2022-03-12 |   JAVA   |
+| 22  |               [238. Product of Array Except Self](./leetcode/solution22.md)               | 2022-03-13 |   JAVA   |
+| 23  |                     [64. Minimum Path Sum](./leetcode/solution23.md)                      | 2022-03-13 |   JAVA   |
+| 24  |                     [73. Set Matrix Zeroes](./leetcode/solution24.md)                     | 2022-03-13 |   JAVA   |
+| 25  |                        [79. Word Search](./leetcode/solution25.md)                        | 2022-03-13 |   JAVA   |
+| 26  |                    [74. Search a 2D Matrix](./leetcode/solution26.md)                     | 2022-03-13 |   JAVA   |
+| 27  |                      [338. Counting Bits](./leetcode/solution27.md)                       | 2022-03-13 |   JAVA   |
+| 28  |                       [71. Simplify Path](./leetcode/solution28.md)                       | 2022-03-15 |   JAVA   |
+| 29  |                 [347. Top K Frequent Elements](./leetcode/solution29.md)                  | 2022-03-15 |   JAVA   |
+| 30  |                  [35. Search Insert Position](./leetcode/solution30.md)                   | 2022-03-15 |   JAVA   |
+| 31  |                       [36. Valid Sudoku](./leetcode/solution31.md)                        | 2022-03-15 |   JAVA   |
+| 32  |                    [58. Length of Last Word](./leetcode/solution32.md)                    | 2022-03-15 |   JAVA   |
+| 33  |                       [62. Unique Paths](./leetcode/solution33.md)                        | 2022-03-15 |   JAVA   |
+| 34  |                  [239. Sliding Window Maximum](./leetcode/solution34.md)                  | 2022-03-16 |   JAVA   |
+| 35  |                 [946. Validate Stack Sequences](./leetcode/solution35.md)                 | 2022-03-16 |   JAVA   |
+| 36  |        [1249. Minimum Remove to Make Valid Parentheses](./leetcode/solution36.md)         | 2022-03-16 |   JAVA   |
+| 37  |                   [856. Score of Parentheses](./leetcode/solution37.md)                   | 2022-03-17 |   JAVA   |
+| 38  |                 [316. Remove Duplicate Letters](./leetcode/solution38.md)                 | 2022-03-18 |   JAVA   |
+| 39  |                      [27. Remove Element](./leetcode/solution39.md)                       | 2022-03-18 |   JAVA   |
+| 40  |            [26. Remove Duplicates from Sorted Array](./leetcode/solution40.md)            | 2022-03-18 |   JAVA   |
+| 41  |                       [283. Move Zeroes](./leetcode/solution41.md)                        | 2022-03-18 |   JAVA   |
+| 42  |                      [56. Merge Intervals](./leetcode/solution42.md)                      | 2022-03-18 |   JAVA   |
+| 43  |                 [678. Valid Parenthesis String](./leetcode/solution43.md)                 | 2022-03-18 |   JAVA   |
+| 44  |       [2116. Check if a Parentheses String Can Be Valid](./leetcode/solution44.md)        | 2022-03-18 |   JAVA   |
+| 45  |                [978. Longest Turbulent Subarray](./leetcode/solution45.md)                | 2022-03-19 |   JAVA   |
+| 46  |                    [130. Surrounded Regions](./leetcode/solution46.md)                    | 2022-03-19 |   JAVA   |
+| 47  |         [1007. Minimum Domino Rotations For Equal Row](./leetcode/solution47.md)          | 2022-03-20 |   JAVA   |
+| 48  |                     [763. Partition Labels](./leetcode/solution48.md)                     | 2022-03-21 |   JAVA   |
+| 49  |                    [200. Number of Islands](./leetcode/solution49.md)                     | 2022-03-21 |   JAVA   |
+| 50  |       [1663. Smallest String With A Given Numeric Value](./leetcode/solution50.md)        | 2022-03-22 |   JAVA   |
+| 51  |                    [991. Broken Calculator](./leetcode/solution51.md)                     | 2022-03-23 |   JAVA   |
+| 52  |                   [881. Boats to Save People](./leetcode/solution52.md)                   | 2022-03-24 |   JAVA   |
+| 53  |                   [1029. Two City Scheduling](./leetcode/solution53.md)                   | 2022-03-25 |   JAVA   |
+| 54  |                      [704. Binary Search](./leetcode/solution54.md)                       | 2022-03-26 |   JAVA   |
+| 55  |                    [399. Evaluate Division](./leetcode/solution55.md)                     | 2022-03-26 |   JAVA   |
+| 56  |             [1337. The K Weakest Rows in a Matrix](./leetcode/solution56.md)              | 2022-03-27 |   JAVA   |
+| 57  |                    [399. Evaluate Division](./leetcode/solution57.md)                     | 2022-03-27 |   JAVA   |
+| 58  |                    [743. Network Delay Time](./leetcode/solution58.md)                    | 2022-03-28 |   JAVA   |
+| 59  |                [287. Find the Duplicate Number](./leetcode/solution59.md)                 | 2022-03-29 |   JAVA   |
+| 60  |              [1514. Path with Maximum Probability](./leetcode/solution60.md)              | 2022-03-30 |   JAVA   |
+| 61  |                      [344. Reverse String](./leetcode/solution61.md)                      | 2022-04-01 |   JAVA   |
+| 62  |                    [1046. Last Stone Weight](./leetcode/solution62.md)                    | 2022-04-07 |   JAVA   |
+| 63  |                  [1695. Maximum Erasure Value](./leetcode/solution63.md)                  | 2022-06-12 |   JAVA   |
+| 64  |         [1658. Minimum Operations to Reduce X to Zero](./leetcode/solution64.md)          | 2022-06-13 |   JAVA   |
+| 65  |                         [120. Triangle](./leetcode/solution65.md)                         | 2022-06-13 |   JAVA   |
+| 66  |             [1642. Furthest Building You Can Reach](./leetcode/solution66.md)             | 2022-06-22 |   JAVA   |
+| 67  |        [1354. Construct Target Array With Multiple Sums](./leetcode/solution67.md)        | 2022-06-26 |   JAVA   |
+| 68  |                   [665. Non-decreasing Array](./leetcode/solution68.md)                   | 2022-06-26 |   JAVA   |
+| 69  |        [1423. Maximum Points You Can Obtain from Cards](./leetcode/solution69.md)         | 2022-06-27 |   JAVA   |
+| 70  |        [995. Minimum Number of K Consecutive Bit Flips](./leetcode/solution70.md)         |    미제    |   JAVA   |
+| 71  | [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](./leetcode/solution71.md) | 2022-06-27 |   JAVA   |
