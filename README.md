@@ -350,3 +350,4 @@ Author: Jung
 | 69  |        [1423. Maximum Points You Can Obtain from Cards](./leetcode/solution69.md)         | 2022-06-27 |   JAVA   |
 | 70  |        [995. Minimum Number of K Consecutive Bit Flips](./leetcode/solution70.md)         |    미제    |   JAVA   |
 | 71  | [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](./leetcode/solution71.md) | 2022-06-27 |   JAVA   |
+| 72  | [1647. Minimum Deletions to Make Character Frequencies Unique](./leetcode/solution72.md)  | 2022-06-28 |   JAVA   |
