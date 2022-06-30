@@ -352,3 +352,5 @@ Author: Jung
 | 71  | [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](./leetcode/solution71.md) | 2022-06-27 |   JAVA   |
 | 72  | [1647. Minimum Deletions to Make Character Frequencies Unique](./leetcode/solution72.md)  | 2022-06-28 |   JAVA   |
 | 73  |                  [765. Couples Holding Hands](./leetcode/solution73.md)                   | 2022-06-29 |   JAVA   |
+| 74  |                  [41. First Missing Positive](./leetcode/solution74.md)                   | 2022-06-29 |   JAVA   |
+| 75  |         [462. Minimum Moves to Equal Array Elements II](./leetcode/solution75.md)         | 2022-06-30 |   JAVA   |
