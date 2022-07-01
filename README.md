@@ -354,3 +354,4 @@ Author: Jung
 | 73  |                  [765. Couples Holding Hands](./leetcode/solution73.md)                   | 2022-06-29 |   JAVA   |
 | 74  |                  [41. First Missing Positive](./leetcode/solution74.md)                   | 2022-06-29 |   JAVA   |
 | 75  |         [462. Minimum Moves to Equal Array Elements II](./leetcode/solution75.md)         | 2022-06-30 |   JAVA   |
+| 76  |                [1710. Maximum Units on a Truck](./leetcode/solution76.md)                 | 2022-07-01 |   JAVA   |
