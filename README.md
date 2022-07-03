@@ -357,3 +357,4 @@ Author: Jung
 | 76  |                      [1710. Maximum Units on a Truck](./leetcode/solution76.md)                      | 2022-07-01 |   JAVA   |
 | 77  |               [378. Kth Smallest Element in a Sorted Matrix](./leetcode/solution77.md)               | 2022-07-02 |   JAVA   |
 | 78  | [1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](./leetcode/solution78.md) | 2022-07-02 |   JAVA   |
+| 79  |                              [542. 01 Matrix](./leetcode/solution79.md)                              | 2022-07-02 |   JAVA   |
