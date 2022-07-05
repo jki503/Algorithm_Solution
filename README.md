@@ -358,4 +358,5 @@ Author: Jung
 | 77  |               [378. Kth Smallest Element in a Sorted Matrix](./leetcode/solution77.md)               | 2022-07-02 |   JAVA   |
 | 78  | [1465. Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts](./leetcode/solution78.md) | 2022-07-02 |   JAVA   |
 | 79  |                              [542. 01 Matrix](./leetcode/solution79.md)                              | 2022-07-03 |   JAVA   |
-| 80  |                    [128. Longest Consecutive Sequence](./leetcode/solution80.md)                     | 2022-07-03 |   JAVA   |
+| 80  |                    [128. Longest Consecutive Sequence](./leetcode/solution80.md)                     | 2022-07-05 |   JAVA   |
+| 81  |                                [135. Candy](./leetcode/solution81.md)                                | 2022-07-05 |   JAVA   |
