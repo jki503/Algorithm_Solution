@@ -360,3 +360,4 @@ Author: Jung
 | 79  |                              [542. 01 Matrix](./leetcode/solution79.md)                              | 2022-07-03 |   JAVA   |
 | 80  |                    [128. Longest Consecutive Sequence](./leetcode/solution80.md)                     | 2022-07-05 |   JAVA   |
 | 81  |                                [135. Candy](./leetcode/solution81.md)                                | 2022-07-05 |   JAVA   |
+| 82  |                          [509. Fibonacci Number](./leetcode/solution82.md)                           | 2022-07-06 |   JAVA   |
