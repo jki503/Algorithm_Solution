@@ -362,3 +362,4 @@ Author: Jung
 | 81  |                                [135. Candy](./leetcode/solution81.md)                                | 2022-07-05 |   JAVA   |
 | 82  |                          [509. Fibonacci Number](./leetcode/solution82.md)                           | 2022-07-06 |   JAVA   |
 | 83  |                [581. Shortest Unsorted Continuous Subarray](./leetcode/solution83.md)                | 2022-07-07 |   JAVA   |
+| 84  |                         [695. Max Area of Island](./leetcode/solution84.md)                          | 2022-07-18 |   JAVA   |
