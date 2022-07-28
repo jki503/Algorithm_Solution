@@ -365,3 +365,5 @@ Author: Jung
 | 84  |                         [695. Max Area of Island](./leetcode/solution84.md)                          | 2022-07-18 |   JAVA   |
 | 85  |                        [240. Search a 2D Matrix II](./leetcode/solution85.md)                        | 2022-07-24 |   JAVA   |
 | 86  |       [34. Find First and Last Position of Element in Sorted Array](./leetcode/solution86.md)        | 2022-07-27 |   JAVA   |
+| 87  |                 [315. Count of Smaller Numbers After Self](./leetcode/solution87.md)                 | 2022-07-28 |   JAVA   |
+| 87  |                            [242. Valid Anagram](./leetcode/solution88.md)                            | 2022-07-29 |   JAVA   |
