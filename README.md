@@ -370,3 +370,4 @@ Author: Jung
 | 89  |                        [310. Minimum Height Trees](./leetcode/solution89.md)                         | 2022-08-08 |   JAVA   |
 | 90  |                     [513. Find Bottom Left Tree Value](./leetcode/solution90.md)                     | 2022-08-09 |   JAVA   |
 | 91  |                   [300. Longest Increasing Subsequence](./leetcode/solution91.md)                    | 2022-08-09 |   JAVA   |
+| 92  |           [235. Lowest Common Ancestor of a Binary Search Tree](./leetcode/solution92.md)            | 2022-08-15 |   JAVA   |
