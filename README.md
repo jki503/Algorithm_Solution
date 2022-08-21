@@ -375,3 +375,4 @@ Author: Jung
 | 94  |                       [804. Unique Morse Code Words](./leetcode/solution94.md)                       | 2022-08-17 |   JAVA   |
 | 95  |                     [98. Validate Binary Search Tree](./leetcode/solution95.md)                      | 2022-08-17 |   JAVA   |
 | 96  |              [30. Substring with Concatenation of All Words](./leetcode/solution96.md)               | 2022-08-17 |   JAVA   |
+| 97  |                   [1338. Reduce Array Size to The Half](./leetcode/solution97.md)                    | 2022-08-21 |   JAVA   |
