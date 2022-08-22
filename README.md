@@ -209,6 +209,7 @@ Author: Jung
 | 41  |    [줄 서는 방법](./programmers/level3/solution41.md)     | 2022-03-31 |   JAVA   |
 | 42  |  [스티커 모으기(2)](./programmers/level3/solution42.md)   | 2022-04-03 |   JAVA   |
 | 43  |     [길찾기 게임](./programmers/level3/solution43.md)     | 2022-04-05 |   JAVA   |
+| 44  |    [사라지는 발판](./programmers/level3/solution44.md)    | 2022-08-22 |   JAVA   |
 
 </br>
 
