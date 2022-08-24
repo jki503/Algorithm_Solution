@@ -158,6 +158,7 @@ Author: Jung
 | 58  |           [후보키](./programmers/level2/solution58.md)           | 2022-03-04 |   JAVA   |
 | 59  |         [양궁 대회](./programmers/level2/solution59.md)          | 2022-03-05 |   JAVA   |
 | 60  |         [숫자 블럭](./programmers/level2/solution60.md)          | 2022-06-08 |   JAVA   |
+| 61  |      [교점에 별 만들기](./programmers/level2/solution61.md)      | 2022-08-24 |   JAVA   |
 
 </br>
 </br>
@@ -185,7 +186,7 @@ Author: Jung
 | 17  |       [표 편집](./programmers/level3/solution17.md)       | 2022-02-16 |   JAVA   |
 | 18  | [파괴 되지 않은 건물](./programmers/level3/solution18.md) | 2022-02-16 |   JAVA   |
 | 19  |   [징검다리 건너기](./programmers/level3/solution19.md)   | 2022-02-16 |   JAVA   |
-| 20  |     [아이템 줍기](./programmers/level3/solution20.md)     | 2022-02-16 |   JAVA   |
+| 20  |     [아이템 줍기](./programmers/level3/solution20.md)     | 2022-08-24 |   JAVA   |
 | 21  |       [N-Queen](./programmers/level3/solution21.md)       | 2022-02-16 |   JAVA   |
 | 22  |    [풍선 터트리기](./programmers/level3/solution22.md)    | 2022-02-17 |   JAVA   |
 | 23  |  [모두 0으로 만들기](./programmers/level3/solution23.md)  | 2022-02-17 |   JAVA   |
