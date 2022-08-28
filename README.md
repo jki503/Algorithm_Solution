@@ -380,3 +380,4 @@ Author: Jung
 | 97  |                   [1338. Reduce Array Size to The Half](./leetcode/solution97.md)                    | 2022-08-21 |   JAVA   |
 | 98  |                             [383. Ransom Note](./leetcode/solution98.md)                             | 2022-08-25 |   JAVA   |
 | 99  |                  [102. Binary Tree Level Order Traversal](./leetcode/solution99.md)                  | 2022-08-28 |   JAVA   |
+| 100 |                    [94. Binary Tree Inorder Traversal](./leetcode/solution100.md)                    | 2022-08-28 |   JAVA   |
