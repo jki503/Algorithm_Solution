@@ -379,3 +379,4 @@ Author: Jung
 | 96  |              [30. Substring with Concatenation of All Words](./leetcode/solution96.md)               | 2022-08-17 |   JAVA   |
 | 97  |                   [1338. Reduce Array Size to The Half](./leetcode/solution97.md)                    | 2022-08-21 |   JAVA   |
 | 98  |                             [383. Ransom Note](./leetcode/solution98.md)                             | 2022-08-25 |   JAVA   |
+| 99  |                  [102. Binary Tree Level Order Traversal](./leetcode/solution99.md)                  | 2022-08-28 |   JAVA   |
