@@ -8,70 +8,37 @@
 
 ```java
 
-import java.util.StringTokenizer;
-import java.lang.Math;
-
 class Solution {
-
     public int solution(int n, int k) {
-
         int answer = 0;
 
-        // k진수로 string 변환
-        String convertNum =  ConvertNum(n,k);
-
-        // 0을 기준으로 토큰 자르고 검사
-        StringTokenizer st = new StringTokenizer(convertNum,"0");
-
-        while(true){
-
-            //token 없으면 break;
-            if(!st.hasMoreTokens())
-                break;
-
-            String strNum = st.nextToken();
-
-            // 1이면 continue;
-            if(strNum == "1")
-                continue;
-
-            if(checkPrime(Long.parseLong(strNum)))
-                answer++;
+        StringBuilder sb = new StringBuilder();
+        while(n!=0){
+            sb.insert(0, n % k);
+            n /= k;
         }
+        String numStr = sb.toString().replaceAll("^0+|0+$","");
+        String[] maybePrimes = numStr.split("0+");
 
+        for(String maybePrime : maybePrimes){
+            if(isPrime(Long.parseLong(maybePrime))){
+                answer++;
+            }
+        }
         return answer;
     }
 
-    public String ConvertNum(int num, int k){
-
-        String result = "";
-
-        while(true){
-
-            // 탈출 조건
-            if(num==0)
-                break;
-
-            result = Integer.toString(num % k)+ result;
-            num/=k;
-        }
-        return result;
-    }
-
-    public boolean checkPrime(Long num){
-
-        if(num < 2)
+    private boolean isPrime(long num){
+        if(num < 2){
             return false;
-
-        // for (int i=2; i*i <=num; i++)
-        // -> 자료형 터져서 testcase1번 roop 갖히는 문제
-        for(int i=2;i<=Math.sqrt(num);i++){
-            if(num % i == 0)
-                return false;
         }
 
+        for(int i = 2 ; i <= Math.sqrt(num); i++){
+            if(num % i == 0){
+                return false;
+            }
+        }
         return true;
     }
 }
-
 ```

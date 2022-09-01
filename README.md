@@ -159,6 +159,7 @@ Author: Jung
 | 59  |         [양궁 대회](./programmers/level2/solution59.md)          | 2022-03-05 |   JAVA   |
 | 60  |         [숫자 블럭](./programmers/level2/solution60.md)          | 2022-06-08 |   JAVA   |
 | 61  |      [교점에 별 만들기](./programmers/level2/solution61.md)      | 2022-08-24 |   JAVA   |
+| 62  |      [모음사전](./programmers/level2/solution62.md)      | 2022-08-31 |   JAVA   |
 
 </br>
 </br>
