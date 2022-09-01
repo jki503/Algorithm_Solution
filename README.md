@@ -159,7 +159,7 @@ Author: Jung
 | 59  |         [양궁 대회](./programmers/level2/solution59.md)          | 2022-03-05 |   JAVA   |
 | 60  |         [숫자 블럭](./programmers/level2/solution60.md)          | 2022-06-08 |   JAVA   |
 | 61  |      [교점에 별 만들기](./programmers/level2/solution61.md)      | 2022-08-24 |   JAVA   |
-| 62  |      [모음사전](./programmers/level2/solution62.md)      | 2022-08-31 |   JAVA   |
+| 62  |          [모음사전](./programmers/level2/solution62.md)          | 2022-08-31 |   JAVA   |
 
 </br>
 </br>
@@ -382,3 +382,4 @@ Author: Jung
 | 98  |                             [383. Ransom Note](./leetcode/solution98.md)                             | 2022-08-25 |   JAVA   |
 | 99  |                  [102. Binary Tree Level Order Traversal](./leetcode/solution99.md)                  | 2022-08-28 |   JAVA   |
 | 100 |                    [94. Binary Tree Inorder Traversal](./leetcode/solution100.md)                    | 2022-08-28 |   JAVA   |
+| 101 |                  [1448. Count Good Nodes in Binary Tree](./leetcode/solution101.md)                  | 2022-09-01 |   JAVA   |
