@@ -385,3 +385,4 @@ Author: Jung
 | 101 |                  [1448. Count Good Nodes in Binary Tree](./leetcode/solution101.md)                  | 2022-09-01 |   JAVA   |
 | 102 |             [967. Numbers With Same Consecutive Differences](./leetcode/solution102.md)              | 2022-09-04 |   JAVA   |
 | 103 |                         [226. Invert Binary Tree](./leetcode/solution103.md)                         | 2022-09-04 |   JAVA   |
+| 104 |      [https://leetcode.com/problems/shortest-path-in-binary-matrix/](./leetcode/solution104.md)      | 2022-09-04 |   JAVA   |
