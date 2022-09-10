@@ -7,104 +7,80 @@
 - 다익스트라
 
 ```java
-
-import java.util.Queue;
-import java.util.LinkedList;
-import java.util.ArrayList;
-import java.util.PriorityQueue;
-import java.util.Arrays;
+import java.util.*;
 
 class Solution {
-
-    ArrayList<ArrayList<Node>> graph;
-
     public int solution(int n, int s, int a, int b, int[][] fares) {
         int answer = Integer.MAX_VALUE;
 
-        setGraph(n, fares);
+        Map<Integer, List<Point>> graph = new HashMap<>();
 
-        int[] fromA = new int[n+1];
-        int[] fromB = new int[n+1];
-        int[] fromS = new int[n+1];
-
-        Arrays.fill(fromA, Integer.MAX_VALUE);
-        Arrays.fill(fromB, Integer.MAX_VALUE);
-        Arrays.fill(fromS, Integer.MAX_VALUE);
-
-        fromA = getDist(a,fromA);
-        fromB = getDist(b,fromB);
-        fromS = getDist(s,fromS);
-
-        // 각 노드로부터 최소 찾기
-        for(int i=1;i<=n;i++)
-            answer = Math.min(answer, fromA[i] + fromB[i] + fromS[i]);
-
-        return answer;
-    }
-
-     public int[] getDist(int start, int[] costs){
-        PriorityQueue<Node> pq = new PriorityQueue<>();
-
-        pq.offer(new Node(start,0));
-
-        while(!pq.isEmpty()){
-
-            Node curr = pq.poll();
-
-            int no = curr.no;
-            int cost = curr.cost;
-
-            // 최소 비용 아니면
-            if(cost > costs[no])
-                continue;
-
-            // cost 갱신
-            costs[no] = cost;
-
-            ArrayList<Node> Nodes = graph.get(no);
-
-            for(Node node : Nodes)
-                pq.offer(new Node(node.no, cost + node.cost));
-
-        }
-
-        return costs;
-    }
-
-    public void setGraph(int n, int[][] data){
-
-        graph = new ArrayList<>();
-
-        for(int i=0;i<=n;i++)
-            graph.add(new ArrayList<Node>());
-
-        for(int[] f : data){
+        for(int[] f : fares){
             int from = f[0];
             int to = f[1];
             int cost = f[2];
 
-            graph.get(from).add(new Node(to,cost));
-            graph.get(to).add(new Node(from,cost));
+            graph.computeIfAbsent(from, k -> new ArrayList<>()).add(new Point(to, cost));
+            graph.computeIfAbsent(to, k -> new ArrayList<>()).add(new Point(from, cost));
+        }
+
+        int costFromA[] = new int[n+1];
+        int costFromB[] = new int[n+1];
+        int costFromStart[] = new int[n+1];
+
+        Arrays.fill(costFromA, Integer.MAX_VALUE);
+        Arrays.fill(costFromB, Integer.MAX_VALUE);
+        Arrays.fill(costFromStart, Integer.MAX_VALUE);
+
+        setCosts(a, costFromA, graph);
+        setCosts(b, costFromB, graph);
+        setCosts(s, costFromStart, graph);
+
+        for(int i = 1; i <= n; i++){
+            answer = Math.min(answer, costFromA[i] + costFromB[i] + costFromStart[i]);
+        }
+
+        return answer;
+    }
+
+    private void setCosts(int start, int[] costs, Map<Integer, List<Point>> graph){
+        PriorityQueue<Point> pq = new PriorityQueue<>();
+
+        pq.offer(new Point(start, 0));
+
+        while(!pq.isEmpty()){
+            Point curr = pq.poll();
+
+            int num = curr.num;
+            int cost = curr.cost;
+
+            if(cost > costs[num]){
+                continue;
+            }
+
+            costs[num] = cost;
+
+            for(Point next: graph.get(num)){
+                pq.offer(new Point(next.num, cost + next.cost));
+            }
+
         }
     }
 
-    class Node implements Comparable<Node>{
-
-        int no;
+    class Point implements Comparable<Point>{
+        int num;
         int cost;
 
-        Node(int no, int cost){
-            this.no = no;
+        public Point(int num, int cost){
+            this.num = num;
             this.cost = cost;
         }
 
-        public int compareTo(Node n){
-            return this.cost - n.cost;
+        public int compareTo(Point p){
+            return this.cost - p.cost;
         }
-
     }
 }
-
 ```
 
 </br>
