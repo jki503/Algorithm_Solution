@@ -374,7 +374,7 @@ Author: Jung
 | 90  |                     [513. Find Bottom Left Tree Value](./leetcode/solution90.md)                     | 2022-08-09 |   JAVA   |
 | 91  |                   [300. Longest Increasing Subsequence](./leetcode/solution91.md)                    | 2022-08-09 |   JAVA   |
 | 92  |           [235. Lowest Common Ancestor of a Binary Search Tree](./leetcode/solution92.md)            | 2022-08-15 |   JAVA   |
-| 93  |                           [126. Word Ladder II](./leetcode/solution93.md)                            | 2022-08-17 |   JAVA   |
+| 93  |                           [126. Word Ladder II](./leetcode/solution93.md)                            |    미제    |   JAVA   |
 | 94  |                       [804. Unique Morse Code Words](./leetcode/solution94.md)                       | 2022-08-17 |   JAVA   |
 | 95  |                     [98. Validate Binary Search Tree](./leetcode/solution95.md)                      | 2022-08-17 |   JAVA   |
 | 96  |              [30. Substring with Concatenation of All Words](./leetcode/solution96.md)               | 2022-08-17 |   JAVA   |

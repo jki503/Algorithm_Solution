@@ -5,69 +5,51 @@
 </br>
 
 ```java
-
-import java.util.HashMap;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.Map;
-import java.util.Collections;
+import java.util.*;
 
 class Solution {
-
-    HashMap<String,List<Integer>> map;
+    private Map<String,List<Integer>> infoMap = new HashMap<>();
 
     public int[] solution(String[] info, String[] query) {
-        int[] answer = new int[query.length];
+        int n = query.length;
+        int[] answer = new int[n];
 
-        map = new HashMap<>();
-
-        // 2^4 조합
-        for(String inf : info){
-            String[] curr = inf.split(" ");
-
-            comb(curr);
+        for(String i : info){
+            combinateSubSet(i.split(" "));
         }
 
-        // score 기준 정렬
-        for(Map.Entry<String, List<Integer>> entry : map.entrySet()){
+        for(Map.Entry<String, List<Integer>> entry : infoMap.entrySet()){
             Collections.sort(entry.getValue());
         }
 
-        // 조회
-        for(int i=0;i<query.length;i++){
-            String[] curr = query[i].replaceAll("\\sand\\s|\\-","").split(" ");
-            String key = curr[0];
-            int score = Integer.parseInt(curr[1]);
-
+        for(int i = 0; i < n; i++){
+            String[] q = query[i].replaceAll("\\sand\\s|-","")
+                .split(" ");
+            String key = q[0];
+            int score = Integer.parseInt(q[1]);
             answer[i] = lowerBound(key, score);
         }
 
         return answer;
     }
 
+    private void combinateSubSet(String[] arr){
+        int score = Integer.parseInt(arr[arr.length - 1]);
 
-    // info에 대해 충족하는 모든 쿼리 조합 - 2^4
-    public void comb(String[] arr){
-        int score = Integer.parseInt(arr[arr.length-1]);
+        for(int i = 1 ; i <= (1  << arr.length - 1); i++){
+            StringBuilder keySb = new StringBuilder();
 
-        // 전체 부분집합 score 이전까지만 [0-3]
-        for(int i=1;i <= (1 <<arr.length-1);i++){
-            StringBuilder key = new StringBuilder();
-
-            for(int j=0;j<arr.length-1;j++){
-                if( (i & (1<<j)) > 0){
-                    key.append(arr[j]);
+            for(int j = 0; j < arr.length - 1; j++){
+                if((i & 1 << j) > 0){
+                    keySb.append(arr[j]);
                 }
             }
-            // key가 없으면 list 생성 후 추가
-            map.computeIfAbsent(key.toString(), k -> new ArrayList<>()).add(score);
+            infoMap.computeIfAbsent(keySb.toString(), k -> new ArrayList<>()).add(score);
         }
     }
 
-
-    // binarySearch lowerBound
-    public int lowerBound(String key, int score){
-        List<Integer> list = map.getOrDefault(key,new ArrayList<>());
+    private int lowerBound(String key, int score){
+        List<Integer> list = infoMap.getOrDefault(key, new ArrayList<>());
 
         int start = 0;
         int end = list.size();
@@ -78,13 +60,11 @@ class Solution {
             if(list.get(mid) >= score){
                 end = mid;
             }
-            else
-                start = mid+1;
-
+            else{
+                start = mid + 1;
+            }
         }
-        // score 이상인 개수
         return list.size() - start;
     }
 }
-
 ```

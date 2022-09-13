@@ -10,72 +10,77 @@
 import java.util.*;
 
 class Solution {
+    private Map<Integer, List<Point>> graph = new HashMap<>();
+    
+    // index a = 0, b = 1, s = 2;
     public int solution(int n, int s, int a, int b, int[][] fares) {
         int answer = Integer.MAX_VALUE;
-
-        Map<Integer, List<Point>> graph = new HashMap<>();
-
+        setGraph(fares);
+        
+        int[][] costs = new int[3][n + 1];
+        int[] starts = new int[]{a,b,s};
+        
+        for(int i = 0; i < 3; i++){
+            Arrays.fill(costs[i], Integer.MAX_VALUE);              
+        }
+        
+        for(int i = 0; i < 3; i++){
+           setCosts(starts[i], costs[i]);
+        }
+        
+        for(int i = 1; i < n + 1; i++){
+            int sum = 0;
+            for(int j = 0; j < 3; j++){
+                sum += costs[j][i];
+            }
+            
+            answer = Math.min(answer, sum);
+        }
+        
+        return answer;
+    }
+    
+    private void setCosts(int start, int[] costFromStart){
+        PriorityQueue<Point> pq = new PriorityQueue<>();
+        pq.offer(new Point(start, 0));
+        
+        while(!pq.isEmpty()){
+            Point curr = pq.poll();
+            int num = curr.num;
+            int cost = curr.cost;
+            
+            if(cost >= costFromStart[num]){
+                continue;
+            }  
+            
+            costFromStart[num] = cost;
+                            
+            for(Point next : graph.get(num)){
+                pq.offer(new Point(next.num, cost + next.cost));
+            }
+        }
+    }
+    
+    private void setGraph(int[][] fares){
         for(int[] f : fares){
             int from = f[0];
             int to = f[1];
             int cost = f[2];
-
-            graph.computeIfAbsent(from, k -> new ArrayList<>()).add(new Point(to, cost));
-            graph.computeIfAbsent(to, k -> new ArrayList<>()).add(new Point(from, cost));
-        }
-
-        int costFromA[] = new int[n+1];
-        int costFromB[] = new int[n+1];
-        int costFromStart[] = new int[n+1];
-
-        Arrays.fill(costFromA, Integer.MAX_VALUE);
-        Arrays.fill(costFromB, Integer.MAX_VALUE);
-        Arrays.fill(costFromStart, Integer.MAX_VALUE);
-
-        setCosts(a, costFromA, graph);
-        setCosts(b, costFromB, graph);
-        setCosts(s, costFromStart, graph);
-
-        for(int i = 1; i <= n; i++){
-            answer = Math.min(answer, costFromA[i] + costFromB[i] + costFromStart[i]);
-        }
-
-        return answer;
+            
+            graph.computeIfAbsent(from, k -> new ArrayList()).add(new Point(to, cost));
+            graph.computeIfAbsent(to, k -> new ArrayList()).add(new Point(from, cost));
+        }       
     }
-
-    private void setCosts(int start, int[] costs, Map<Integer, List<Point>> graph){
-        PriorityQueue<Point> pq = new PriorityQueue<>();
-
-        pq.offer(new Point(start, 0));
-
-        while(!pq.isEmpty()){
-            Point curr = pq.poll();
-
-            int num = curr.num;
-            int cost = curr.cost;
-
-            if(cost > costs[num]){
-                continue;
-            }
-
-            costs[num] = cost;
-
-            for(Point next: graph.get(num)){
-                pq.offer(new Point(next.num, cost + next.cost));
-            }
-
-        }
-    }
-
+    
     class Point implements Comparable<Point>{
         int num;
         int cost;
-
+        
         public Point(int num, int cost){
             this.num = num;
             this.cost = cost;
         }
-
+        
         public int compareTo(Point p){
             return this.cost - p.cost;
         }
