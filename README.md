@@ -387,3 +387,4 @@ Author: Jung
 | 103 |                         [226. Invert Binary Tree](./leetcode/solution103.md)                         | 2022-09-04 |   JAVA   |
 | 104 |                  [1091. Shortest Path in Binary Matrix](./leetcode/solution104.md)                   | 2022-09-04 |   JAVA   |
 | 105 |                  [429. N-ary Tree Level Order Traversal](./leetcode/solution105.md)                  | 2022-09-05 |   JAVA   |
+| 106 |                           [948. Bag of Tokens](./leetcode/solution106.md)                            | 2022-09-14 |   JAVA   |
