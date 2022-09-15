@@ -388,3 +388,4 @@ Author: Jung
 | 104 |                  [1091. Shortest Path in Binary Matrix](./leetcode/solution104.md)                   | 2022-09-04 |   JAVA   |
 | 105 |                  [429. N-ary Tree Level Order Traversal](./leetcode/solution105.md)                  | 2022-09-05 |   JAVA   |
 | 106 |                           [948. Bag of Tokens](./leetcode/solution106.md)                            | 2022-09-14 |   JAVA   |
+| 107 |              [2007. Find Original Array From Doubled Array](./leetcode/solution107.md)               | 2022-09-15 |   JAVA   |
