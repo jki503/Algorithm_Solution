@@ -5,67 +5,53 @@
 </br>
 
 ```java
-
-import java.util.Collections;
-import java.util.List;
-import java.util.ArrayList;
+import java.util.*;
 
 class Solution {
     public int[] solution(int N, int[] stages) {
         int[] answer = new int[N];
-        int[] users = new int[N];
-        int nPlayers = stages.length;
-        List<FailRate> stageList = new ArrayList<>();
+        PriorityQueue<Stage> pq = new PriorityQueue<>();
+        int nPlayer = stages.length;
+        int[] failUsers = new int[N + 1];
 
-        // 스테이지에 있는 유저
         for(int s : stages){
-            if(s > N)
-                continue;
-            users[s-1] +=1;
+            failUsers[s - 1]++;
         }
 
-        // 실패율 저장
-        for(int i=0;i<users.length;i++){
-            double fail = 0;
-
-            if(users[i] == 0)
-                fail = 0;
-            else{
-                fail = (double)users[i] / nPlayers;
-                nPlayers -= users[i];
+        for(int i = 0; i < N; i++){
+            if(nPlayer == 0 || failUsers[i] == 0){
+                pq.offer(new Stage(i + 1,0));
             }
-
-            stageList.add(new FailRate(i+1,fail));
+            else{
+                pq.offer(new Stage(i + 1, (double)failUsers[i] / nPlayer));
+            }
+            nPlayer -= failUsers[i];
         }
 
-        // 정렬
-        Collections.sort(stageList);
-
-        for(int i=0;i<N;i++)
-            answer[i] = stageList.get(i).idx;
+        for(int i = 0 ; i < N; i++){
+            answer[i] = pq.poll().num;
+        }
 
         return answer;
     }
 
-    class FailRate implements Comparable<FailRate>{
+    class Stage implements Comparable<Stage>{
+        int num;
+        double fail;
 
-        int idx;
-        double per;
-
-        FailRate(int idx, double per){
-            this.idx = idx;
-            this.per = per;
+        public Stage(int num, double fail){
+            this.num = num;
+            this.fail = fail;
         }
 
         @Override
-        public int compareTo(FailRate s){
+        public int compareTo(Stage s){
+            if(this.fail == s.fail){
+                return this.num < s.num? -1 : 1;
+            }
 
-            if(this.per == s.per)
-                return this.idx < s.idx ? -1 : 1; // idx 오름 차순
-
-            return this.per > s.per ? -1 : 1; // 실패율 내림차순
+            return this.fail > s.fail ? -1 : 1;
         }
     }
 }
-
 ```
