@@ -389,3 +389,4 @@ Author: Jung
 | 105 |                  [429. N-ary Tree Level Order Traversal](./leetcode/solution105.md)                  | 2022-09-05 |   JAVA   |
 | 106 |                           [948. Bag of Tokens](./leetcode/solution106.md)                            | 2022-09-14 |   JAVA   |
 | 107 |              [2007. Find Original Array From Doubled Array](./leetcode/solution107.md)               | 2022-09-15 |   JAVA   |
+| 108 |                        [42. Trapping Rain Water ](./leetcode/solution108.md)                         | 2022-09-18 |   JAVA   |
