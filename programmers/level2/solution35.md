@@ -5,83 +5,46 @@
 </br>
 
 ```java
-
-import java.util.Map;
-import java.util.HashMap;
-import java.util.List;
-import java.util.ArrayList;
-import java.util.StringTokenizer;
+import java.util.*;
 
 class Solution {
 
-    String enterStr = "님이 들어왔습니다.";
-    String leaveStr = "님이 나갔습니다.";
+    private static final String enterString = "님이 들어왔습니다.";
 
-    List<String> logList;
-    Map<String,String> nickMap;
+    private static final String leaveString = "님이 나갔습니다.";
 
     public String[] solution(String[] record) {
-        String[] answer;
+        List<String> logs = new ArrayList<>();
+        Map<String, String> nickMap = new HashMap<>();
 
-        this.logList = new ArrayList<>();
-        this.nickMap = new HashMap<>();
+        for(String r : record){
+            String[] rArr = r.split(" ");
+            String cmd = rArr[0];
+            String uid = rArr[1];
 
-        for(String rec : record){
+            if(cmd.equals("Leave")){
+                logs.add(uid + leaveString);
+                continue;
+            }
 
-            StringTokenizer st = new StringTokenizer(rec);
+            if(cmd.equals("Enter")){
+                logs.add(uid + enterString);
+            }
 
-            String action = st.nextToken();
-            String id = st.nextToken();
-            String name = "";
-
-            // Leave는 닉네임 없음
-            if(!action.equals("Leave"))
-                name = st.nextToken();
-
-            // log 넣기
-            recordLog(action, id, name);
-
+            String nickName = rArr[2];
+            nickMap.put(uid, nickName);
         }
 
-        // log에 uid -> nickname으로
-        answer = changeNick();
+        String[] answer = new String[logs.size()];
+        for(int i = 0 ; i < answer.length; i++){
+            String log = logs.get(i);
+            int idx = log.indexOf("님");
+            String currId = log.substring(0,idx);
+
+            answer[i] = log.replace(currId, nickMap.get(currId));
+        }
 
         return answer;
     }
-
-    public void recordLog(String action, String id, String name){
-            if(action.equals("Enter")){
-                nickMap.put(id,name);
-                logList.add(id + enterStr);
-            }
-            else if(action.equals("Leave")){
-                logList.add(id + leaveStr);
-            }
-            else if(action.equals("Change")){
-                nickMap.put(id,name);
-            }
-    }
-
-    public String[] changeNick(){
-        String[] result = new String[logList.size()];
-
-        for(int i=0; i < logList.size(); i++){
-
-            String log = logList.get(i);
-
-            // 님 위치
-            int j = log.indexOf("님");
-
-            String id = log.substring(0,j);
-            String name = nickMap.get(id);
-
-            // uid -> name으로
-            result[i] = log.replaceAll(id,name);
-
-        }
-
-        return result;
-    }
 }
-
 ```
