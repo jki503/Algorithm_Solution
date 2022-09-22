@@ -5,24 +5,23 @@
 </br>
 
 ```java
-
 class Solution {
     public String[] solution(int n, int[] arr1, int[] arr2) {
         String[] answer = new String[n];
 
-        for(int i = 0 ; i < n ; i++){
+        for(int i = 0 ; i < n; i++){
+            StringBuilder sb = new StringBuilder();
+            sb.append(Integer.toBinaryString(arr1[i] | arr2[i])
+                .replaceAll("1", "#")
+                .replaceAll("0", " "));
 
-            // 공백 방지
-            answer[i] = String.format("%0"+n+"d", Long.parseLong(Integer.toBinaryString(arr1[i] | arr2[i])))
-                .replace("1","#")
-                .replace("0"," ");
-
+            while(sb.length() != n){
+                sb.insert(0, " ");
+            }
+            answer[i] = sb.toString();
         }
-
-
 
         return answer;
     }
 }
-
 ```
