@@ -88,6 +88,7 @@ Author: Jung
 | 53  | [x만큼 간격이 있는 n개의 숫자](./programmers/level1/solution53.md) | 2022-03-02 | JAVA     |
 | 54  |       [직사각형 별찍기](./programmers/level1/solution54.md)        | 2022-03-02 | JAVA     |
 | 55  |      [이상한 문자 만들기](./programmers/level1/solution55.md)      | 2022-03-02 | JAVA     |
+| 56  |      [성격 유형 검사하기](./programmers/level1/solution56.md)      | 2022-09-23 | JAVA     |
 
 </br>
 </br>
@@ -160,6 +161,7 @@ Author: Jung
 | 60  |         [숫자 블럭](./programmers/level2/solution60.md)          | 2022-06-08 |   JAVA   |
 | 61  |      [교점에 별 만들기](./programmers/level2/solution61.md)      | 2022-08-24 |   JAVA   |
 | 62  |          [모음사전](./programmers/level2/solution62.md)          | 2022-08-31 |   JAVA   |
+| 63  |    [두 큐 합 같게 만들기](./programmers/level2/solution63.md)    | 2022-09-23 |   JAVA   |
 
 </br>
 </br>
@@ -389,4 +391,5 @@ Author: Jung
 | 105 |                  [429. N-ary Tree Level Order Traversal](./leetcode/solution105.md)                  | 2022-09-05 |   JAVA   |
 | 106 |                           [948. Bag of Tokens](./leetcode/solution106.md)                            | 2022-09-14 |   JAVA   |
 | 107 |              [2007. Find Original Array From Doubled Array](./leetcode/solution107.md)               | 2022-09-15 |   JAVA   |
-| 108 |                        [42. Trapping Rain Water ](./leetcode/solution108.md)                         | 2022-09-18 |   JAVA   |
+| 108 |                         [42. Trapping Rain Water](./leetcode/solution108.md)                         | 2022-09-18 |   JAVA   |
+| 109 |                            [113. Path Sum II](./leetcode/solution109.md)                             | 2022-09-24 |   JAVA   |
