@@ -230,6 +230,16 @@ Author: Jung
 
 </br>
 
+### **BOJ**
+
+</br>
+
+| No. |                     Name                     |    Date    | Language |
+| :-: | :------------------------------------------: | :--------: | :------: |
+|  1  | [기타줄(1049)](./baekjoon/boj/solution01.md) | 2022-10-12 |   JAVA   |
+
+</br>
+
 ### **class2**
 
 | No. |                            Name                             |    Date    | Language |
@@ -396,3 +406,4 @@ Author: Jung
 | 110 |                      [129. Sum Root to Leaf Numbers](./leetcode/solution110.md)                      | 2022-09-25 |   JAVA   |
 | 111 |                     [435. Non-overlapping Intervals](./leetcode/solution111.md)                      | 2022-09-25 |   JAVA   |
 | 112 |                          [207. Course Schedule](./leetcode/solution112.md)                           | 2022-10-03 |   JAVA   |
+| 113 |                         [210. Course Schedule II](./leetcode/solution113.md)                         | 2022-10-03 |   JAVA   |
