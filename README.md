@@ -234,12 +234,13 @@ Author: Jung
 
 </br>
 
-| No. |                             Name                             |    Date    | Language |
-| :-: | :----------------------------------------------------------: | :--------: | :------: |
-|  1  |         [기타줄(1049)](./baekjoon/boj/solution01.md)         | 2022-10-12 |   JAVA   |
-|  1  |        [키 순서(2458)](./baekjoon/boj/solution02.md)         | 2022-10-14 |   JAVA   |
-|  1  | [특정 거리의 도시 찾기(18352)](./baekjoon/boj/solution03.md) | 2022-10-14 |   JAVA   |
-|  1  |     [소수의 연속합(1644)](./baekjoon/boj/solution04.md)      | 2022-10-18 |   JAVA   |
+| No. |                              Name                               |    Date    | Language |
+| :-: | :-------------------------------------------------------------: | :--------: | :------: |
+|  1  |          [기타줄(1049)](./baekjoon/boj/solution01.md)           | 2022-10-12 |   JAVA   |
+|  2  |          [키 순서(2458)](./baekjoon/boj/solution02.md)          | 2022-10-14 |   JAVA   |
+|  3  |  [특정 거리의 도시 찾기(18352)](./baekjoon/boj/solution03.md)   | 2022-10-14 |   JAVA   |
+|  4  |       [소수의 연속합(1644)](./baekjoon/boj/solution04.md)       | 2022-10-18 |   JAVA   |
+|  5  | [문자열 지옥에 빠진 호석 (20166)](./baekjoon/boj/solution05.md) | 2022-10-18 |   JAVA   |
 
 </br>
 
