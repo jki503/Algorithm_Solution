@@ -242,6 +242,7 @@ Author: Jung
 |  4  |      [소수의 연속합(1644)](./baekjoon/boj/solution04.md)       | 2022-10-18 |   JAVA   |
 |  5  | [문자열 지옥에 빠진 호석(20166)](./baekjoon/boj/solution05.md) | 2022-10-18 |   JAVA   |
 |  6  |       [강의실 배정(11000)](./baekjoon/boj/solution06.md)       | 2022-10-22 |   JAVA   |
+|  7  |          [월드컵(6987)](./baekjoon/boj/solution07.md)          | 2022-10-22 |   JAVA   |
 
 </br>
 
