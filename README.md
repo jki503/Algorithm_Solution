@@ -243,6 +243,7 @@ Author: Jung
 |  5  | [문자열 지옥에 빠진 호석(20166)](./baekjoon/boj/solution05.md) | 2022-10-18 |   JAVA   |
 |  6  |       [강의실 배정(11000)](./baekjoon/boj/solution06.md)       | 2022-10-22 |   JAVA   |
 |  7  |          [월드컵(6987)](./baekjoon/boj/solution07.md)          | 2022-10-22 |   JAVA   |
+|  8  |           [운동(1956)](./baekjoon/boj/solution08.md)           | 2022-10-23 |   JAVA   |
 
 </br>
 
@@ -413,3 +414,4 @@ Author: Jung
 | 111 |                     [435. Non-overlapping Intervals](./leetcode/solution111.md)                      | 2022-09-25 |   JAVA   |
 | 112 |                          [207. Course Schedule](./leetcode/solution112.md)                           | 2022-10-03 |   JAVA   |
 | 113 |                         [210. Course Schedule II](./leetcode/solution113.md)                         | 2022-10-03 |   JAVA   |
+| 114 |  [1239. Maximum Length of a Concatenated String with Unique CharactersI](./leetcode/solution114.md)  | 2022-10-24 |   JAVA   |
