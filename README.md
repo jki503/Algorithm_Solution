@@ -244,6 +244,7 @@ Author: Jung
 |  6  |       [강의실 배정(11000)](./baekjoon/boj/solution06.md)       | 2022-10-22 |   JAVA   |
 |  7  |          [월드컵(6987)](./baekjoon/boj/solution07.md)          | 2022-10-22 |   JAVA   |
 |  8  |           [운동(1956)](./baekjoon/boj/solution08.md)           | 2022-10-23 |   JAVA   |
+|  9  |          [알파벳(1987)](./baekjoon/boj/solution09.md)          | 2022-11-07 |   JAVA   |
 
 </br>
 
