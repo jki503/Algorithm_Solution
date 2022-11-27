@@ -5,109 +5,83 @@
 ```java
 
 import java.util.*;
-import java.lang.Math;
 
 class Solution {
+    //상(0) 우(1) 하(2) 좌(3)
+    private static final int[] dx = new int[]{0,1,0,-1};
 
-    //상(0)우(1)하(2)좌(3)
-    int dirRow[] = {-1,0,1,0};
-    int dirCol[] = {0,1,0,-1};
-
-    class Node{
-        public int row;
-        public int col;
-        public int cost;
-        public int dir;
-
-        Node(int row, int col, int cost, int dir){
-            this.row = row;
-            this.col = col;
-            this.cost = cost;
-            this.dir = dir;
-        }
-    }
+    private static final int[] dy = new int[]{-1,0,1,0};
 
     public int solution(int[][] board) {
-        int answer = 0;
         int n = board.length;
-        int [][][]costMap = new int[n][n][4];
+        int[][][] costs = new int[n][n][4];
 
-        Queue<Node> queue = new LinkedList<>();
-        queue.offer(new Node(0,0,0,2)); // 우
-        queue.offer(new Node(0,0,0,1)); // 하
+        Queue<Point> q = new ArrayDeque<>();
+        q.offer(new Point(0,0,1,0));
+        q.offer(new Point(0,0,2,0));
 
-        while(!queue.isEmpty()){
-            //지금을 기준으로
-            Node node = queue.poll();
-            int row = node.row;
-            int col = node.col;
-            int cost = node.cost;
-            int dir = node.dir;
+        while(!q.isEmpty()){
+            Point curr = q.poll();
+            int x = curr.x;
+            int y = curr.y;
+            int direction = curr.direction;
+            int cost = curr.cost;
 
-            // 유효한 위치인지
-            if(!validLocation(row,col,n,board)) continue;
-
-            // 방문한 노드인지
-            if(validVisited(costMap,row,col,dir,cost)) continue;
-            costMap[row][col][dir] = cost;
-
-            //도착했는지
-            if(validDestination(row,col,n))
+            if(x < 0 || x >= n || y < 0 || y >= n || board[y][x] == 1){
                 continue;
+            }
 
+            if(costs[y][x][direction] != 0 && costs[y][x][direction] <= cost){
+                continue;
+            }
 
-            // 코너 방향 선언
-            int dir2 = (dir+1)%4;
-            int dir3 = (dir+3)%4;
+            costs[y][x][direction] = cost;
 
+            if(x == n - 1 && y == n - 1){
+                continue;
+            }
 
-            //직선
-            queue.offer(new Node(row+dirRow[dir], col+dirCol[dir],cost+100,dir));
+            int cornerDirection1 = (direction + 1) % 4;
+            int cornerDirection2 = (direction + 3) % 4;
 
-            //코너
-            queue.offer(new Node(row+dirRow[dir2], col+dirCol[dir2],cost+500+100,dir2));
-            queue.offer(new Node(row+dirRow[dir3], col+dirCol[dir3],cost+500+100,dir3));
-
-        }
-        for(int i=0;i<4;i++){
-            if(costMap[n-1][n-1][i] != 0)
-                if(answer == 0){
-                    answer = costMap[n-1][n-1][i];
-                }
-                else{
-                    answer = Math.min(costMap[n-1][n-1][i],answer);
-                }
+            q.offer(new Point(x + dx[direction], y + dy[direction], direction, cost + 100));
+            q.offer(new Point(x + dx[cornerDirection1], y + dy[cornerDirection1], cornerDirection1, cost + 100 + 500));
+            q.offer(new Point(x + dx[cornerDirection2], y + dy[cornerDirection2], cornerDirection2, cost + 100 + 500));
 
         }
+
+        int answer = Integer.MAX_VALUE;
+        for(int i = 0; i < 4; i++){
+            if(costs[n-1][n-1][i] == 0){
+                continue;
+            }
+
+            answer = Math.min(answer, costs[n-1][n-1][i]);
+        }
+
 
         return answer;
     }
 
+    class Point{
 
-    public boolean validLocation(int row, int col,int n, int[][] board){
-        if(row<0 || row >=n
-          || col < 0 || col>= n
-          || board[row][col] == 1){
-            return false;
+        int x;
+
+        int y;
+
+        int direction;
+
+        int cost;
+
+
+        public Point(int x, int y, int direction, int cost){
+            this.x = x;
+            this.y = y;
+            this.direction = direction;
+            this.cost = cost;
         }
-        else
-            return true;
-    }
 
-    public boolean validVisited(int[][][] costMap, int row,int col,int dir, int nowCost){
-        if(costMap[row][col][dir] == 0) return false;
-        else if(costMap[row][col][dir] > nowCost) return false;
-        else return true;
-
-    }
-
-    public boolean validDestination(int row, int col, int n){
-        if(row == n-1 && col == n-1)
-            return true;
-        else
-            return false;
     }
 }
-
 
 ```

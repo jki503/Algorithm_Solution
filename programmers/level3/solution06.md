@@ -7,35 +7,31 @@
 ```java
 
 class Solution {
+
+    private static final int MODULAR = 1_000_000_007;
+
     public int solution(int m, int n, int[][] puddles) {
-        int answer = 0;
-        int[][] map = new int[n+1][m+1];
+        int dp[][] = new int[n + 1][m + 1];
+        dp[1][1] = 1;
 
         for(int[] puddle : puddles){
-            int r = puddle[1];
-            int c = puddle[0];
-
-            map[r][c] = -1;
+            int y = puddle[1];
+            int x = puddle[0];
+            dp[y][x] = -1;
         }
 
-        // start
-        map[1][1]=1;
-
-        for(int i=1; i<=n;i++){
-            for(int j=1;j<=m;j++){
-
-                // 불능 지역이면 continue;
-                if(map[i][j] == -1){
-                    map[i][j] = 0;
+        for(int y = 1; y <= n; y++){
+            for(int x = 1; x <= m; x++){
+                if(dp[y][x] == -1){
+                    dp[y][x] = 0;
                     continue;
                 }
 
-                map[i][j]+= (map[i-1][j] + map[i][j-1]) % 1000000007;
+                dp[y][x] += (dp[y][x - 1] + dp[y - 1][x]) % MODULAR;
             }
         }
-        answer = map[n][m];
 
-        return answer;
+        return dp[n][m];
     }
 }
 

@@ -2,66 +2,60 @@
 
 - [문제 링크](https://programmers.co.kr/learn/courses/30/lessons/49189?language=java)
 
----
-
-</br>
-</br>
-
-- 풀이
-
----
-
 ```java
 import java.util.*;
 
 class Solution {
-
     public int solution(int n, int[][] edge) {
         int answer = 0;
-        int[] distance = new int[n+1];
-        boolean [] visited = new boolean[n+1];
+        int max = 0;
+        int[] counts = new int[n + 1];
 
-        // 인접행렬 세팅
-        ArrayList<Integer>[] adjList = (ArrayList<Integer>[])new ArrayList[n+1];
-        for(int i=0;i<n+1;i++){
-            adjList[i] = new ArrayList<>();
+        Map<Integer, List<Integer>> graph = new HashMap<>();
+
+        for(int[] e : edge){
+            int from = e[0];
+            int to = e[1];
+
+            graph.computeIfAbsent(from, k -> new ArrayList<>()).add(to);
+            graph.computeIfAbsent(to, k -> new ArrayList<>()).add(from);
         }
 
-        for(int i=0;i<edge.length;i++){
-            adjList[edge[i][0]].add(edge[i][1]);
-            adjList[edge[i][1]].add(edge[i][0]);
-        }
-
-        Queue<Integer> queue = new LinkedList<>();
-
-        queue.offer(1);
+        Queue<Integer> q = new ArrayDeque<>();
+        boolean[] visited = new boolean[n + 1];
         visited[1] = true;
+        q.offer(1);
 
-        while(!queue.isEmpty()){
-            int node = queue.poll();
+        int cnt = 0;
+        while(!q.isEmpty()){
 
-            for(int i=0;i<adjList[node].size();i++){
-                int nextNode = adjList[node].get(i);
+            int size = q.size();
+            for(int i = 0 ; i < size; i++){
+                int node = q.poll();
+                counts[node] = cnt;
 
-                // 방문했는지
-                if(!visited[nextNode]){
-                    visited[nextNode]=true;
-                    queue.offer(nextNode);
-                    distance[nextNode] = distance[node] + 1;
+                if(graph.get(node) == null){
+                    continue;
+                }
+
+                for(Integer nextNode : graph.get(node)){
+                    if(visited[nextNode]){
+                        continue;
+                    }
+                    visited[nextNode] = true;
+                    q.offer(nextNode);
                 }
             }
 
+            cnt++;
         }
 
-        //최댓값
-        int maxDistance = Arrays
-            .stream(distance)
-            .max()
-            .getAsInt();
+        cnt-=1;
 
-        for(int i=1; i<distance.length;i++){
-            if(distance[i] == maxDistance)
+        for(int i = 2; i <= n; i++){
+            if(counts[i] == cnt){
                 answer++;
+            }
         }
 
         return answer;
